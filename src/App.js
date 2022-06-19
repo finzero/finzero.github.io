@@ -1,23 +1,89 @@
-import logo from './logo.svg';
 import './App.css';
+import { Items } from './components/Items';
+
+const skills = [
+  { src: './50px/angular.png', alt: 'Angular', title: 'Angular' },
+  { src: './50px/javascript.png', alt: 'Javascript', title: 'Javascript' },
+  { src: './50px/typescript.png', alt: 'Typescript', title: 'Typescript' },
+  { src: './50px/react--blackicon-50.png', alt: 'ReactJS', title: 'ReactJS' },
+  { src: './50px/css3.png', alt: 'CSS3', title: 'CSS3' },
+  { src: './50px/html5.png', alt: 'HTML5', title: 'HTML5' },
+  { src: './50px/git.png', alt: 'Git', title: 'Git' },
+  { src: './50px/php-circle-50.png', alt: 'PHP', title: 'PHP' },
+  { src: './50px/mysql-logo-blue-50.png', alt: 'MySQL', title: 'MySQL' },
+  { src: './50px/ext-js-50.png', alt: 'ExtJS', title: 'ExtJS' },
+  { src: './50px/postgresql.png', alt: 'PostgreSQL', title: 'PostgreSQL' },
+  { src: './50px/docker-0.png', alt: 'Docker', title: 'Docker' },
+];
+
+const works = [
+  {
+    src: './50px/point-of-sale-logo-50.png',
+    alt: '',
+    title: 'Point of Sales',
+    label: 'Point of Sales',
+  },
+  {
+    src: './50px/inventory-logo-50.png',
+    alt: '',
+    title: 'Inventory Management',
+    label: 'Inventory Management',
+  },
+  {
+    src: './50px/phone-50.png',
+    alt: '',
+    title: 'Online Consultation',
+    label: 'Online Consultation',
+  },
+  { src: './50px/cms-50.png', alt: '', title: 'CMS', label: 'CMS' },
+  {
+    src: './50px/cart-logo-circle-green-50.png',
+    alt: '',
+    title: 'E-Commerce',
+    label: 'E-Commerce',
+  },
+  {
+    src: './50px/bank-50.png',
+    alt: '',
+    title: 'Banking Application',
+    label: 'Banking Application',
+  },
+];
+
+const socialMedia = [
+  {
+    src: './50px/facebook-50.png',
+    link: 'https://id-id.facebook.com/fazrin.green',
+    title: 'Facebook',
+  },
+  {
+    src: './50px/Twitter_Logo-letter-50.png',
+    link: 'https://twitter.com/fazrinmutaqin',
+    title: 'Twitter',
+  },
+  {
+    src: './50px/instagram-circle-2.png',
+    link: 'https://www.instagram.com/fazrin_mutaqin',
+    title: 'Instagram',
+  },
+  {
+    src: './50px/linked-in-circle-50.png',
+    link: 'https://www.linkedin.com/in/fazrin-mutaqin-b16a7b49',
+    title: 'LinkedIn',
+  },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div style={{ height: 300 + 'px' }}></div>
+      <Items title={'SKILLS'} className={'skills'} items={skills} />
+      <Items title={'WORKS'} className={'projects'} items={works} />
+      <Items
+        title={'SOCIAL MEDIA'}
+        className={'social-media'}
+        items={socialMedia}
+      />
     </div>
   );
 }

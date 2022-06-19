@@ -1,38 +1,266 @@
-.App {
-  text-align: center;
+/* FuturaPTLight.otf */
+@font-face { 
+  font-family: 'Futura'; 
+  src: url('../public/font/FuturaLT-Book.woff') format("WOFF"); 
+  font-weight: normal; 
+}
+body{
+  /* background: #e4fbff; */
+  background: rgb(255,248,228);
+  /* background: linear-gradient(90deg, rgba(255,248,228,1) 0%, rgba(255,244,213,1) 46%, rgba(255,255,255,1) 100%); */
+  background: linear-gradient(90deg, rgba(255,248,228,1) 0%, rgba(255,249,232,1) 46%, rgba(255,251,241,1) 100%);
+  /* font-family:Arial, Helvetica, sans-serif */
+  font-family: 'Futura';
+  font-size: 17px;
+}
+.about{
+  z-index: 1;
+  padding: 10px 10px 0 10px;
+  margin-top: 20px;
+  /* text-align: center; */
+  /* background: url(./tom-cruise-hi-v2.png) no-repeat;
+  background-position: bottom 0 center; */
+  height: 350px;
+  position: relative;
+}
+.my-info {
+  top: 110px;
+  position: absolute;
+  color: #000000;
+  text-shadow: 0 0 10px #ffffff;
+  /* text-shadow: -1px -1px 1px rgb(255 255 255 / 10%), 1px 1px 1px rgb(0 0 0 / 50%); */
+}
+.my-experience{
+  position: absolute;
+  top: 140px;
+  right: 10px;
+  position: absolute;
+  top: 140px;
+  right: 10px;
+  width: 400px;
+  text-shadow: 0 0 10px #ffffff;
+}
+.avatar{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  overflow: hidden;
+  margin: auto;
+  /* border: 2px solid #000000; */
+}
+.job-title{
+  font-size: 20px;
+  font-style: italic;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item-container > div{
+  box-shadow: 1px 4px 9px 1px rgba(0,0,0,0.13);
+  -webkit-box-shadow: 1px 4px 9px 1px rgba(0,0,0,0.13);
+  -moz-box-shadow: 1px 4px 9px 1px rgba(0,0,0,0.13);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes slide {
+  100% { left: 0; }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(10px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+.skills{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  border: 1px solid #efefef;
+  padding: 10px;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* background-color: #bfffff; */
+  overflow: hidden;
+
+  animation-duration: 1.5s;
+  animation-name: slideInFromLeft;
+}
+.skills > div {
+  margin: 10px 30px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+
+}
+.projects{
+  display: flex;
+  border: 1px solid #efefef;
+  padding: 10px;
+  /* background-color: #bfffff; */
+  flex-wrap: wrap;
+  justify-content: center;  
+  animation-duration: 2s;
+  animation-name: slideInFromLeft;
+} 
+.projects > div{
+  margin: 10px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.projects > div{
+  margin: 10px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.projects > div > div{
+  margin-left: 10px;
+}
+
+.social-media{
+  display: flex;
+  border: 1px solid #efefef;
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* background-color: #bfffff; */
+
+  animation-duration: 2.5s;
+  animation-name: slideInFromLeft;
+}
+.projects div{
+  margin: 10px;
+  font-weight: bold;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+.social-media > div {
+  margin:10px;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+}
+.title{
+  font-weight: bold;
+  min-width: 200px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 3px 50px;
+  -webkit-border-top-right-radius: 30px;
+  -moz-border-radius-topright: 30px;
+  border-top-right-radius: 30px;
+}
+.mb-2 {
+  margin-bottom: 2em;
+}
+.work-item{
+  display: flex;
+  align-items: center;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 3s; /* Firefox < 16 */
+  -ms-animation: fadein 3s; /* Internet Explorer */
+  -o-animation: fadein 3s; /* Opera < 12.1 */
+  animation: fadein 3s;
+  margin: 10px;
+  flex-basis: 23%;
+}
+.w-50{
+  width: 50%;
+}
+.name{
+  font-size: 40px;
+  font-weight: bold;
+  /* margin: 10px; */
+}
+
+.float-btn{
+  z-index: 2;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 10px;
+  border-radius: 100px;
+  border: 1px solid #000000;
+
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 4s ease-in-out infinite;
+  background: #000000;
+  font-weight: bold;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+.coffee-icon{
+  margin-top: -20px;
+  margin-left: 10px;
+  position: absolute;
+}
+body {
+  background-color: #fff8e4;
+}
+.skills,
+.projects,
+.social-media{
+  background-color: #ffedb8;
+}
+
+@media screen and (max-width: 768px) {
+  .my-experience{
+    width: 200px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media screen and (max-width: 425px) {
+  .my-experience{
+    display: none;
+  }
+  .avatar{
+    opacity: .8;
+  }
+  .projects{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 361px) {
+  .coffee-icon{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  .projects{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;  
+  }
+  .skills{
+    justify-content: space-between;
   }
 }
