@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 export const Items = (props) => {
   const { title, items, className } = props;
   return (
-    <div className="item-container">
+    <div className="item-container mt-2">
       <span className="title">{title}</span>
-      <div className={className + ' mb-2'}>
+      <div className={className}>
         {items.length && items.map((s) => <Item key={s.title} item={s} />)}
       </div>
     </div>

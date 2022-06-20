@@ -1,5 +1,6 @@
 import './App.css';
 import { Items } from './components/Items';
+import { AboutMe } from './components/AboutMe';
 
 const skills = [
   { src: './50px/angular.png', alt: 'Angular', title: 'Angular' },
@@ -76,7 +77,11 @@ const socialMedia = [
 function App() {
   return (
     <div className="main-container night">
-      <div style={{ height: 300 + 'px' }}></div>
+      <a href="./resume.html" class="float-btn">
+        Resume
+      </a>
+
+      <AboutMe />
       <Items title={'SKILLS'} className={'skills'} items={skills} />
       <Items title={'WORKS'} className={'projects'} items={works} />
       <Items
