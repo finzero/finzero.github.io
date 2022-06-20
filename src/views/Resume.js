@@ -24,7 +24,7 @@ export const Resume = () => {
   }, []);
 
   return (
-    <div id="resume" className="container resume-container">
+    <div id="resume" className="resume-container">
       <ResumeTop data={my} />
       <div className="row h-100">
         <ResumeLeft data={my} />

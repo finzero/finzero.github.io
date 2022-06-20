@@ -39,6 +39,9 @@
   margin: 0 10px;
   zoom: 1.2;
   background: #ffffff;
+  overflow: hidden;
+  margin: 0 0px;
+  padding: 0 10px;
 }
 .left-container, .right-container{
   /* padding: 10px; */
