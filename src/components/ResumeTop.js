@@ -2,7 +2,6 @@ import React from 'react';
 
 export const ResumeTop = (props) => {
   const my = props.data;
-  console.log(props);
   return (
     <div className="row">
       <div className="sm-header w-100 d-sm-block d-md-none">
