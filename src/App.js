@@ -1,14 +1,21 @@
 import './App.css';
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import { Portofolio } from './views/Portofolio';
+import { Resume } from './views/Resume';
 
 function App() {
+  const [page, setPage] = useState('Portofolio');
+
+  const togglePage = () => {
+    setPage(page === 'Portofolio' ? 'Resume' : 'Portofolio');
+  };
+
   return (
     <Fragment>
-      <a href="/" onClick={(e) => e.preventDefault()} className="float-btn">
-        Resume
-      </a>
-      <Portofolio />
+      <button onClick={togglePage} className={'float-btn ' + page}>
+        {page}
+      </button>
+      {page === 'Portofolio' ? <Portofolio /> : <Resume />}
     </Fragment>
   );
 }

@@ -1,0 +1,111 @@
+@font-face { 
+  font-family: 'Futura'; 
+  src: url('../../public/font/FuturaLT-Book.woff') format("WOFF"); 
+  font-weight: normal; 
+  font-size: 20px;
+}
+
+.section-name{
+  font-size: 25px;
+  font-weight: 800;
+}
+.section-title{
+  font-size: 14px;
+}
+.left-title{
+  background: #002d7c;
+  color: white;
+  font-weight: 800;
+  font-size: 18px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 5px 10px;
+}
+.right-title{
+  color: #002d7c;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 5px 10px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 10px;
+}
+.h-100{
+  height: 100%;
+}
+.resume-container{
+  font-family: 'Futura';
+  min-height: 500px;
+  margin: 0 10px;
+  zoom: 1.2;
+  background: #ffffff;
+}
+.left-container, .right-container{
+  /* padding: 10px; */
+  font-size: 14px;
+}
+.left-container{
+  background: #203d78;
+  color: white;
+}
+.right-container{
+  background-color: #ffffff;
+}
+.skill-bar{
+  border: 1px solid #fff;
+  height: 15px;
+  margin-bottom: 10px;
+}
+.skill-bar div{
+  background-color: #ffffff;
+  height: 14px;
+}
+.w-70{ width: 70%; }
+.w-80{ width: 80%; }
+.w-90{ width: 90%; }
+.w-100{ width: 100%; }
+.work-title{font-size: 20px;font-weight: 700;}
+.work-employer{font-style: italic; font-weight: bold;}
+.bold{font-weight: bold;}
+.section-profile-pict{
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.section-profile-pict img{
+  width: 100%;
+}
+.sm-header{
+  background: #203d78;
+  color: #ffffff;
+  padding: 10px;
+}
+.separator{
+  border: 1px solid #ffffff;
+  width: 100%;
+  margin: 10px 0;
+}
+.contact-title{
+  font-size: 14px;
+  font-weight: bold;
+}
+.contact-value{
+  font-size: 12px;
+}
+.self-introduce{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .section-profile-pict{
+    width: 110px;
+    height: 110px;
+    border-radius: 13px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
