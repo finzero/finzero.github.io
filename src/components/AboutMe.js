@@ -2,19 +2,38 @@ import React, { useEffect } from 'react';
 
 export const AboutMe = () => {
   useEffect(() => {
-    const text =
+    const expText =
       'I have been working as a software developer since 2011. Meet a lot of people, working in a team and keep improving myself.';
-    let fullText = '';
-    let timeout = null;
     let myExpEl = document.querySelector('.my-experience > p');
-    clearTimeout(timeout);
-    text.split('').forEach((t, i) => {
-      timeout = setTimeout(() => {
-        fullText += t;
-        myExpEl.innerHTML = fullText;
-      }, i * 30);
+    animateText(expText, myExpEl).then((res) => {
+      console.log('expText', res);
+    });
+
+    const aboutText = 'a passionate frontend developer who likes';
+    let aboutEl = document.querySelector('.about-me');
+    animateText(aboutText, aboutEl).then((res) => {
+      const img = document.createElement('img');
+      img.setAttribute('src', './50px/coffee-icon-4.png');
+      img.setAttribute('title', 'Coffee');
+      img.classList.add('coffee-icon');
+      aboutEl.append(img);
     });
   }, []);
+
+  const animateText = async (text, el) => {
+    let fullText = '';
+    return new Promise((resolve) => {
+      text.split('').forEach((t, i) => {
+        setTimeout(() => {
+          fullText += t;
+          el.innerHTML = fullText;
+          if (text.length === i + 1) {
+            resolve('resolved');
+          }
+        }, i * 30);
+      });
+    });
+  };
 
   return (
     <div className="about">

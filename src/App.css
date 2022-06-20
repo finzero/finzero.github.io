@@ -27,7 +27,7 @@ body {
   z-index: 1;
   padding: 10px 10px 0 10px;
   padding-top: 20px;
-  height: 350px;
+  min-height: 350px;
   position: relative;
 }
 
@@ -40,9 +40,6 @@ body {
 }
 
 .my-experience {
-  position: absolute;
-  top: 140px;
-  right: 10px;
   position: absolute;
   top: 140px;
   right: 10px;
@@ -317,27 +314,36 @@ body {
 .night .my-info,
 .night .my-experience {
   color: #fff8e4;
-  -webkit-text-stroke: 1px #8dceff;
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .my-experience{
+    width: 330px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .my-experience {
-    width: 200px;
-  }
-}
 
-@media screen and (max-width: 425px) {
   .my-experience {
-    display: none;
+    position: relative;
+    top:0;
+    right: 0;
+    width: 100%;
   }
 
-  .avatar {
-    opacity: .8;
+  .my-info{
+    position: relative;
+    top:0;
   }
 
   .projects {
     flex-direction: column;
   }
+}
+
+@media screen and (max-width: 425px) {
+  
 }
 
 @media screen and (max-width: 361px) {
