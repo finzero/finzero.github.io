@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/finzero/finzero.github.io/static/css/main.dec69446.css",
-    "main.js": "/finzero/finzero.github.io/static/js/main.134d1b08.js",
-    "static/js/787.7c4fc8d6.chunk.js": "/finzero/finzero.github.io/static/js/787.7c4fc8d6.chunk.js",
-    "static/media/starry-night-sky.jpg": "/finzero/finzero.github.io/static/media/starry-night-sky.09dd8a8a68f382cf58dc.jpg",
-    "static/media/pantai.jpg": "/finzero/finzero.github.io/static/media/pantai.4cf4cd83de994729a3f4.jpg",
-    "static/media/FuturaLT-Book.woff": "/finzero/finzero.github.io/static/media/FuturaLT-Book.f3e39c52d79eeac80ee8.woff",
-    "index.html": "/finzero/finzero.github.io/index.html",
-    "main.dec69446.css.map": "/finzero/finzero.github.io/static/css/main.dec69446.css.map",
-    "main.134d1b08.js.map": "/finzero/finzero.github.io/static/js/main.134d1b08.js.map",
-    "787.7c4fc8d6.chunk.js.map": "/finzero/finzero.github.io/static/js/787.7c4fc8d6.chunk.js.map"
+    "main.css": "/static/css/main.61f98781.css",
+    "main.js": "/static/js/main.23749bb2.js",
+    "static/js/787.7c4fc8d6.chunk.js": "/static/js/787.7c4fc8d6.chunk.js",
+    "static/media/starry-night-sky.jpg": "/static/media/starry-night-sky.09dd8a8a68f382cf58dc.jpg",
+    "static/media/pantai.jpg": "/static/media/pantai.4cf4cd83de994729a3f4.jpg",
+    "static/media/FuturaLT-Book.woff": "/static/media/FuturaLT-Book.f3e39c52d79eeac80ee8.woff",
+    "index.html": "/index.html",
+    "main.61f98781.css.map": "/static/css/main.61f98781.css.map",
+    "main.23749bb2.js.map": "/static/js/main.23749bb2.js.map",
+    "787.7c4fc8d6.chunk.js.map": "/static/js/787.7c4fc8d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dec69446.css",
-    "static/js/main.134d1b08.js"
+    "static/css/main.61f98781.css",
+    "static/js/main.23749bb2.js"
   ]
 }
