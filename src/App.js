@@ -2,12 +2,22 @@ import './App.css';
 import { Items } from './components/Items';
 import { AboutMe } from './components/AboutMe';
 // import data from '../public/json/data.json';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, createRef } from 'react';
+import { ThemeToggle } from './components/ThemeToggle';
 
 function App() {
   const [skills, setSkills] = useState([]);
   const [works, setWorks] = useState([]);
   const [socialMedia, setSocialMedia] = useState([]);
+  const [theme, setTheme] = useState('night');
+
+  const containerRef = createRef();
+
+  const toggleTheme = () => {
+    console.log('i toggled');
+    // console.log(containerRef);
+    containerRef.current.classList.toggle('night');
+  };
 
   useEffect(() => {
     fetch('./json/data.json', {
@@ -28,11 +38,11 @@ function App() {
   }, []);
 
   return (
-    <div className="main-container night">
+    <div className="main-container" ref={containerRef}>
+      <ThemeToggle onChange={toggleTheme} />
       <a href="./resume.html" className="float-btn">
         Resume
       </a>
-
       <AboutMe />
       <Items title={'SKILLS'} className={'skills'} items={skills} />
       <Items title={'WORKS'} className={'projects'} items={works} />
