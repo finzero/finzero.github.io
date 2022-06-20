@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/finzero/fazrin.github.io/static/css/main.d34f6044.css",
-    "main.js": "/finzero/fazrin.github.io/static/js/main.98e2b2d3.js",
-    "static/js/787.7c4fc8d6.chunk.js": "/finzero/fazrin.github.io/static/js/787.7c4fc8d6.chunk.js",
-    "static/media/starry-night-sky.jpg": "/finzero/fazrin.github.io/static/media/starry-night-sky.09dd8a8a68f382cf58dc.jpg",
-    "static/media/pantai.jpg": "/finzero/fazrin.github.io/static/media/pantai.4cf4cd83de994729a3f4.jpg",
-    "static/media/FuturaLT-Book.woff": "/finzero/fazrin.github.io/static/media/FuturaLT-Book.f3e39c52d79eeac80ee8.woff",
-    "index.html": "/finzero/fazrin.github.io/index.html",
-    "main.d34f6044.css.map": "/finzero/fazrin.github.io/static/css/main.d34f6044.css.map",
-    "main.98e2b2d3.js.map": "/finzero/fazrin.github.io/static/js/main.98e2b2d3.js.map",
-    "787.7c4fc8d6.chunk.js.map": "/finzero/fazrin.github.io/static/js/787.7c4fc8d6.chunk.js.map"
+    "main.css": "/finzero/finzero.github.io/static/css/main.dec69446.css",
+    "main.js": "/finzero/finzero.github.io/static/js/main.134d1b08.js",
+    "static/js/787.7c4fc8d6.chunk.js": "/finzero/finzero.github.io/static/js/787.7c4fc8d6.chunk.js",
+    "static/media/starry-night-sky.jpg": "/finzero/finzero.github.io/static/media/starry-night-sky.09dd8a8a68f382cf58dc.jpg",
+    "static/media/pantai.jpg": "/finzero/finzero.github.io/static/media/pantai.4cf4cd83de994729a3f4.jpg",
+    "static/media/FuturaLT-Book.woff": "/finzero/finzero.github.io/static/media/FuturaLT-Book.f3e39c52d79eeac80ee8.woff",
+    "index.html": "/finzero/finzero.github.io/index.html",
+    "main.dec69446.css.map": "/finzero/finzero.github.io/static/css/main.dec69446.css.map",
+    "main.134d1b08.js.map": "/finzero/finzero.github.io/static/js/main.134d1b08.js.map",
+    "787.7c4fc8d6.chunk.js.map": "/finzero/finzero.github.io/static/js/787.7c4fc8d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d34f6044.css",
-    "static/js/main.98e2b2d3.js"
+    "static/css/main.dec69446.css",
+    "static/js/main.134d1b08.js"
   ]
 }
