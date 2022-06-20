@@ -9,13 +9,10 @@ function App() {
   const [skills, setSkills] = useState([]);
   const [works, setWorks] = useState([]);
   const [socialMedia, setSocialMedia] = useState([]);
-  const [theme, setTheme] = useState('night');
 
   const containerRef = createRef();
 
   const toggleTheme = () => {
-    console.log('i toggled');
-    // console.log(containerRef);
     containerRef.current.classList.toggle('night');
   };
 
@@ -40,7 +37,7 @@ function App() {
   return (
     <div className="main-container" ref={containerRef}>
       <ThemeToggle onChange={toggleTheme} />
-      <a href="./resume.html" className="float-btn">
+      <a href="/" onClick={(e) => e.preventDefault()} className="float-btn">
         Resume
       </a>
       <AboutMe />
