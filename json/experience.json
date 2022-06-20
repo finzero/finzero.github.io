@@ -1,0 +1,64 @@
+[
+  {
+    "workDate": "Sep 2016 - Present",
+    "position": "Front End Developer",
+    "employer": "Emveep",
+    "responsibilities": [
+      "Planned website development, converting HTML into a working javascript framework template.",
+      "Coded using HTML, CSS and JavaScript Framework such as AngularJS, Angular, ReacJS to develop features for both mobile and desktop platforms.",
+      "Cooperate with Back End Developer & discussed APIs needed for features to build.",
+      "Working with application container such as docker to deploy application to server.",
+      "Working in an agile based development, participate in all agile activity such as daily scrum, scoring, refinement, & retrospective.",
+      "Discussed site and app requirements with clients to produce actionable development plans.",
+      "Designed and updated layouts to meet usability and performance requirements.",
+      "Researched emerging web technologies and trends for possible incorporation into sites."
+    ]
+  },
+  {
+    "workDate": "May 2013 - Sep 2016",
+    "position": "Front End Developer",
+    "employer": "Walden Global Service",
+    "responsibilities": [
+      "Planned website development, converting HTML into a working javascript framework template.",
+      "Working with JavaScript Framework such as ExtJS, AngularJS, Angular to develop features for both mobile and desktop platforms.",
+      "Cooperate with Back End Developer & discussed APIs needed for features to build.",
+      "Develop API for Front End application usage using laravel.",
+      "Discussed site and app requirements with clients to produce actionable development plans.",
+      "Designed and updated layouts to meet usability and performance requirements.",
+      "Provided support and patching on website interface to maintain viability after launch.",
+      "Researched emerging web technologies and trends for possible incorporation into sites."
+    ]
+  },
+  {
+    "workDate": "May 2012 - May 2013",
+    "position": "Web Developer",
+    "employer": "CV Surya Fokus Mandiri",
+    "responsibilities": [
+      "Planned website development, develop application with HTML, JQuery, YII Framework & MySQL.",
+      "Discussed site and app requirements with clients to produce actionable development plans.",
+      "Designed and updated layouts to meet usability and performance requirements.",
+      "Install application on all user branches."
+    ]
+  },
+  {
+    "workDate": "Mar 2011 - May 2012",
+    "position": "Web Developer",
+    "employer": "PT KIB",
+    "responsibilities": [
+      "Planned website development, develop application with HTML, ExtJS Library, JQuery, PHP Native & Oracle.",
+      "Discussed site and app requirements with clients to produce actionable development plans.",
+      "Designed and updated layouts to meet usability and performance requirements.",
+      "Researched emerging web technologies and trends for possible incorporation into sites.",
+      "Train some users before rollout the application."
+    ]
+  },
+  {
+    "workDate": "Oct 2010 - Feb 2011",
+    "position": "Computer Technician",
+    "employer": "Silicon One",
+    "responsibilities": [
+      "Assembing PC according to customer request.",
+      "Serve customers that come to shop."
+    ]
+  }
+]

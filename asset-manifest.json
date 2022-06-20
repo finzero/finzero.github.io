@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.680cc20b.css",
-    "main.js": "/static/js/main.0800eba5.js",
+    "main.css": "/static/css/main.583c4237.css",
+    "main.js": "/static/js/main.07ad25f5.js",
     "static/js/787.7c4fc8d6.chunk.js": "/static/js/787.7c4fc8d6.chunk.js",
     "static/media/starry-night-sky.jpg": "/static/media/starry-night-sky.09dd8a8a68f382cf58dc.jpg",
     "static/media/pantai.jpg": "/static/media/pantai.4cf4cd83de994729a3f4.jpg",
     "static/media/FuturaLT-Book.woff": "/static/media/FuturaLT-Book.f3e39c52d79eeac80ee8.woff",
     "index.html": "/index.html",
-    "main.680cc20b.css.map": "/static/css/main.680cc20b.css.map",
-    "main.0800eba5.js.map": "/static/js/main.0800eba5.js.map",
+    "main.583c4237.css.map": "/static/css/main.583c4237.css.map",
+    "main.07ad25f5.js.map": "/static/js/main.07ad25f5.js.map",
     "787.7c4fc8d6.chunk.js.map": "/static/js/787.7c4fc8d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.680cc20b.css",
-    "static/js/main.0800eba5.js"
+    "static/css/main.583c4237.css",
+    "static/js/main.07ad25f5.js"
   ]
 }
