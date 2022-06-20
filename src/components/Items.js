@@ -8,7 +8,9 @@ export const Items = (props) => {
     <div className="item-container mt-2">
       <span className="title">{title}</span>
       <div className={className}>
-        {items.length && items.map((s) => <Item key={s.title} item={s} />)}
+        {items.length
+          ? items.map((s) => <Item key={s.title} item={s} />)
+          : null}
       </div>
     </div>
   );
