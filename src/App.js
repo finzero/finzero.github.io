@@ -75,7 +75,7 @@ const socialMedia = [
 
 function App() {
   return (
-    <div>
+    <div className="main-container night">
       <div style={{ height: 300 + 'px' }}></div>
       <Items title={'SKILLS'} className={'skills'} items={skills} />
       <Items title={'WORKS'} className={'projects'} items={works} />
