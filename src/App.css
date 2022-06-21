@@ -15,10 +15,11 @@ body {
   background: url(./assets/img/pantai.jpg);
   object-fit: cover;
   min-height: 100vh;
+  background-size: cover;
 }
 
 .main-container.night {
-  background: url(./assets/img/starry-night-sky.jpg);
+  background: url(./assets/img/starry-night-skyv2.jpg);
   object-fit: cover;
   min-height: 100vh;
 }
