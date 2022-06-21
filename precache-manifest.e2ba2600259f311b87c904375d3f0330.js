@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a140dd3b455eaa568d7e",
-    "url": "/static/css/main.81b27c41.chunk.css"
+    "revision": "0375c8ed75938dcdde36",
+    "url": "/static/css/main.1a4182d4.chunk.css"
   },
   {
-    "revision": "a140dd3b455eaa568d7e",
-    "url": "/static/js/main.a140dd3b.chunk.js"
+    "revision": "0375c8ed75938dcdde36",
+    "url": "/static/js/main.0375c8ed.chunk.js"
   },
   {
     "revision": "41211fcf000cf3a9973c",
@@ -40,15 +40,15 @@ self.__precacheManifest = [
     "url": "/static/media/FuturaLT-Book.eadddf05.woff"
   },
   {
+    "revision": "dbd37d9322c283953c09f1ace3314d25",
+    "url": "/static/media/starry-night-skyv2.dbd37d93.jpg"
+  },
+  {
     "revision": "27eca0dd8380d38f51eb305c99595c3d",
     "url": "/static/media/pantai.27eca0dd.jpg"
   },
   {
-    "revision": "bb9f93f69b195b6660ac48840a9f66fb",
-    "url": "/static/media/starry-night-sky.bb9f93f6.jpg"
-  },
-  {
-    "revision": "5725d5f5ee573b9eeaaf1cc6942fe56a",
+    "revision": "387f3ea28d9dff5130a5959c5668b249",
     "url": "/index.html"
   }
 ];
