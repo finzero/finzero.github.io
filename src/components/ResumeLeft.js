@@ -1,11 +1,12 @@
 import React from 'react';
+import profile from '../assets/img/profile-pict-2.jpg';
 
 export const ResumeLeft = (props) => {
   const my = props.data;
   return (
     <div className="col-md-2 left-container d-none d-sm-none d-md-block">
       <div className="section-profile-pict d-none d-md-block">
-        <img src="./img/profile-pict-2.jpg" alt="Profile" srcSet="" />
+        <img src={profile} alt="Profile" srcSet="" />
       </div>
       <div className="section-name">{my.name}</div>
       <div className="section-title">{my.position}</div>

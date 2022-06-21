@@ -1,7 +1,7 @@
 /* FuturaPTLight.otf */
 @font-face {
   font-family: 'Futura';
-  src: url('../public/font/FuturaLT-Book.woff') format("WOFF");
+  src: url('./assets/font/FuturaLT-Book.woff') format("WOFF");
   font-weight: normal;
 }
 
@@ -12,13 +12,13 @@ body {
 }
 
 .main-container{
-  background: url(../public/img/pantai.jpg);
+  background: url(./assets/img/pantai.jpg);
   object-fit: cover;
   min-height: 100vh;
 }
 
 .main-container.night {
-  background: url(../public/img/starry-night-sky.jpg);
+  background: url(./assets/img/starry-night-sky.jpg);
   object-fit: cover;
   min-height: 100vh;
 }
@@ -54,6 +54,10 @@ body {
   overflow: hidden;
   margin: auto;
   -webkit-box-shadow: 0px 0px 12px 3px rgb(255 255 255 / 66%);
+}
+
+.avatar img {
+  width: 100%;
 }
 
 .job-title {

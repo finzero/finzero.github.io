@@ -1,13 +1,12 @@
 import React, { useEffect } from 'react';
+import profile5 from '../assets/img/IMG_20220102_164245v5.jpg';
 
 export const AboutMe = () => {
   useEffect(() => {
     const expText =
       'I have been working as a software developer since 2011. Meet a lot of people, working in a team and keep improving myself.';
     let myExpEl = document.querySelector('.my-experience > p');
-    animateText(expText, myExpEl).then((res) => {
-      console.log('expText', res);
-    });
+    animateText(expText, myExpEl);
 
     const aboutText = 'a passionate frontend developer who likes';
     let aboutEl = document.querySelector('.about-me');
@@ -38,7 +37,7 @@ export const AboutMe = () => {
   return (
     <div className="about">
       <div className="avatar">
-        <img src="./img/tempat-makan.jpeg" alt="" />
+        <img src={profile5} alt="" />
       </div>
       <div className="my-info">
         <div className="name">

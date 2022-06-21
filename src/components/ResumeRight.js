@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExperienceList } from '../components/ExperienceList';
+import pdf from '../assets/file/resume-fazrin-v4.pdf';
 
 export const ResumeRight = (props) => {
   const { my, experiences } = props.data;
@@ -28,11 +29,7 @@ export const ResumeRight = (props) => {
         </div>
       </div>
       <hr />
-      <a
-        className="btn btn-sm btn-primary mb-2"
-        href="./file/resume-fazrin-v4.pdf"
-        download
-      >
+      <a className="btn btn-sm btn-primary mb-2" href={pdf} download>
         Download Resume
       </a>
     </div>
