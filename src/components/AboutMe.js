@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import profile5 from '../assets/img/IMG_20220102_164245v5.jpg';
+import fathernson from '../assets/img/father-n-son.jpg';
 
 export const AboutMe = () => {
   useEffect(() => {
@@ -37,7 +37,7 @@ export const AboutMe = () => {
   return (
     <div className="about">
       <div className="avatar">
-        <img src={profile5} alt="" />
+        <img src={fathernson} alt="" />
       </div>
       <div className="my-info">
         <div className="name">

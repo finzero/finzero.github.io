@@ -7,7 +7,7 @@ export const Item = (props) => {
   return (
     <div>
       {link ? (
-        <a href={link} target="_blank" rel="noreferrer">
+        <a href={link} target="_blank" rel="noopener noreferrer">
           {Img}
         </a>
       ) : (
