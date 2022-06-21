@@ -15,7 +15,7 @@ export const ResumeLeft = (props) => {
       <div>{my.address}</div>
       <div className="mt-2 bold">Email</div>
       <div>{my.email}</div>
-      <div className="mt-4 left-title">Website</div>
+      <div className="mt-4 left-title">Portofolio</div>
       <div className="mt-2">{my.website}</div>
     </div>
   );
