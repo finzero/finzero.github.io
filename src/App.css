@@ -322,6 +322,10 @@ body {
   -webkit-text-stroke: 1px #ffffff;
 }
 
+span.placeholder.placeholder {
+  margin-left: 5px;
+}
+
 @media screen and (max-width: 1024px) {
   .my-experience{
     width: 330px;

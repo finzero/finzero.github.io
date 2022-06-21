@@ -3,7 +3,8 @@ import { ExperienceList } from '../components/ExperienceList';
 
 export const ResumeRight = (props) => {
   const { my, experiences } = props.data;
-  return (
+  const { loading } = props;
+  return !loading.experiences ? (
     <div className="col-md-10 col-sm-12 right-container">
       <div className="self-introduce">
         <p>{my.opener}</p>
@@ -34,6 +35,44 @@ export const ResumeRight = (props) => {
       >
         Download Resume
       </a>
+    </div>
+  ) : (
+    <div className="col-md-10 col-sm-12">
+      <div className="self-introduce">
+        <p className="placeholder-glow">
+          <span className="placeholder col-7"></span>
+          <span className="placeholder col-4"></span>
+          <span className="placeholder col-4"></span>
+          <span className="placeholder col-6"></span>
+        </p>
+      </div>
+      <div className="right-title">Work History</div>
+      <p className="placeholder-glow">
+        <span className="placeholder col-7"></span>
+        <span className="placeholder col-4"></span>
+        <span className="placeholder col-4"></span>
+        <span className="placeholder col-6"></span>
+      </p>
+      <div className="right-title">Education</div>
+      <p className="placeholder-glow">
+        <span className="placeholder col-7"></span>
+        <span className="placeholder col-4"></span>
+        <span className="placeholder col-4"></span>
+        <span className="placeholder col-6"></span>
+      </p>
+      <div className="right-title">Hobbies</div>
+      <p className="placeholder-glow">
+        <span className="placeholder col-7"></span>
+        <span className="placeholder col-4"></span>
+        <span className="placeholder col-3"></span>
+        <span className="placeholder col-6"></span>
+        <span className="placeholder col-4"></span>
+        <span className="placeholder col-7"></span>
+        <span className="placeholder col-8"></span>
+        <span className="placeholder col-3"></span>
+        <span className="placeholder col-4"></span>
+        <span className="placeholder col-6"></span>
+      </p>
     </div>
   );
 };
