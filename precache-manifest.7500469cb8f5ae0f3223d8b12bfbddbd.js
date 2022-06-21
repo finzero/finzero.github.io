@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "07240ad2144bb5d3c587",
+    "revision": "a140dd3b455eaa568d7e",
     "url": "/static/css/main.81b27c41.chunk.css"
   },
   {
-    "revision": "07240ad2144bb5d3c587",
-    "url": "/static/js/main.07240ad2.chunk.js"
+    "revision": "a140dd3b455eaa568d7e",
+    "url": "/static/js/main.a140dd3b.chunk.js"
   },
   {
     "revision": "41211fcf000cf3a9973c",
@@ -36,19 +36,19 @@ self.__precacheManifest = [
     "url": "/static/media/resume-fazrin-v4.6195e6a7.pdf"
   },
   {
-    "revision": "27eca0dd8380d38f51eb305c99595c3d",
-    "url": "/static/media/pantai.27eca0dd.jpg"
-  },
-  {
     "revision": "eadddf05603e110b01bccd96fc0a401d",
     "url": "/static/media/FuturaLT-Book.eadddf05.woff"
+  },
+  {
+    "revision": "27eca0dd8380d38f51eb305c99595c3d",
+    "url": "/static/media/pantai.27eca0dd.jpg"
   },
   {
     "revision": "bb9f93f69b195b6660ac48840a9f66fb",
     "url": "/static/media/starry-night-sky.bb9f93f6.jpg"
   },
   {
-    "revision": "5a300d594a39b28493b5aaecb86b5169",
+    "revision": "5725d5f5ee573b9eeaaf1cc6942fe56a",
     "url": "/index.html"
   }
 ];
