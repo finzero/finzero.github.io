@@ -13,13 +13,13 @@ body {
 
 .main-container{
   background: url(../public/img/pantai.jpg);
-  background-size: cover;
+  object-fit: cover;
   min-height: 100vh;
 }
 
 .main-container.night {
   background: url(../public/img/starry-night-sky.jpg);
-  background-size: cover;
+  object-fit: cover;
   min-height: 100vh;
 }
 
