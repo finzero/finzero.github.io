@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from '../assets/img/profile-pict-2.jpg';
 
 export const ResumeTop = (props) => {
   const my = props.data;
@@ -8,7 +9,7 @@ export const ResumeTop = (props) => {
         <div className="row">
           <div className="col-4">
             <div className="section-profile-pict">
-              <img src="./img/profile-pict-2.jpg" alt="Profile" srcSet="" />
+              <img src={profile} alt="Profile" srcSet="" />
             </div>
           </div>
           <div className="col-8">

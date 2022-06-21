@@ -256,6 +256,11 @@ body {
   /* margin: 10px; */
 }
 
+@keyframes topToBottom {
+  from {top:10px; bottom: auto}
+  to {top: auto; bottom: 10px;}
+}
+
 .float-btn {
   z-index: 2;
   position: fixed;
