@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 export const Items = (props) => {
   const { title, items, className } = props;
   return (
-    <div className="item-container mt-2">
+    <div className="item-container mt-4">
       <span className="title">{title}</span>
       <div className={className}>
         {items.length
