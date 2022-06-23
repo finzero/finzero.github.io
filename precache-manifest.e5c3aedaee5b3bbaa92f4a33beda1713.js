@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/static/media/FuturaLT-Book.eadddf05.woff"
   },
   {
-    "revision": "dbd37d9322c283953c09f1ace3314d25",
-    "url": "/static/media/starry-night-skyv2.dbd37d93.jpg"
-  },
-  {
     "revision": "27eca0dd8380d38f51eb305c99595c3d",
     "url": "/static/media/pantai.27eca0dd.jpg"
+  },
+  {
+    "revision": "dbd37d9322c283953c09f1ace3314d25",
+    "url": "/static/media/starry-night-skyv2.dbd37d93.jpg"
   },
   {
     "revision": "1dc10afdb1d2d94e3aa8e47a38c52e46",
