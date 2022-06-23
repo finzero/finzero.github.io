@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f45cc6a2f418069281f9",
+    "revision": "d25e694b90958f1e2f9f",
     "url": "/static/css/main.13f648fa.chunk.css"
   },
   {
-    "revision": "f45cc6a2f418069281f9",
-    "url": "/static/js/main.f45cc6a2.chunk.js"
+    "revision": "d25e694b90958f1e2f9f",
+    "url": "/static/js/main.d25e694b.chunk.js"
   },
   {
     "revision": "41211fcf000cf3a9973c",
@@ -32,12 +32,8 @@ self.__precacheManifest = [
     "url": "/static/media/father-n-son.909296b0.jpg"
   },
   {
-    "revision": "6195e6a7f558f550f355c1ec8fa286da",
-    "url": "/static/media/resume-fazrin-v4.6195e6a7.pdf"
-  },
-  {
-    "revision": "eadddf05603e110b01bccd96fc0a401d",
-    "url": "/static/media/FuturaLT-Book.eadddf05.woff"
+    "revision": "f8db19a28e9dbddb83009063a39b8fda",
+    "url": "/static/media/Resume-fazrin-2022.f8db19a2.pdf"
   },
   {
     "revision": "27eca0dd8380d38f51eb305c99595c3d",
@@ -48,7 +44,11 @@ self.__precacheManifest = [
     "url": "/static/media/starry-night-skyv2.dbd37d93.jpg"
   },
   {
-    "revision": "1dc10afdb1d2d94e3aa8e47a38c52e46",
+    "revision": "eadddf05603e110b01bccd96fc0a401d",
+    "url": "/static/media/FuturaLT-Book.eadddf05.woff"
+  },
+  {
+    "revision": "db24f532c0e42a77a90b0af1c484acc4",
     "url": "/index.html"
   }
 ];

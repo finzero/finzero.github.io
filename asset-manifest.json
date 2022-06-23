@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.13f648fa.chunk.css",
-  "main.js": "/static/js/main.f45cc6a2.chunk.js",
-  "main.js.map": "/static/js/main.f45cc6a2.chunk.js.map",
+  "main.js": "/static/js/main.d25e694b.chunk.js",
+  "main.js.map": "/static/js/main.d25e694b.chunk.js.map",
   "static/js/1.41211fcf.chunk.js": "/static/js/1.41211fcf.chunk.js",
   "static/js/1.41211fcf.chunk.js.map": "/static/js/1.41211fcf.chunk.js.map",
   "static/css/2.fbc62d61.chunk.css": "/static/css/2.fbc62d61.chunk.css",
@@ -11,12 +11,12 @@
   "runtime~main.js.map": "/static/js/runtime~main.39a7286a.js.map",
   "static/media/profile-pict-2.jpg": "/static/media/profile-pict-2.b2386394.jpg",
   "static/media/father-n-son.jpg": "/static/media/father-n-son.909296b0.jpg",
-  "static/media/resume-fazrin-v4.pdf": "/static/media/resume-fazrin-v4.6195e6a7.pdf",
-  "static/media/Resume.css": "/static/media/FuturaLT-Book.eadddf05.woff",
+  "static/media/Resume-fazrin-2022.pdf": "/static/media/Resume-fazrin-2022.f8db19a2.pdf",
   "static/media/App.css": "/static/media/starry-night-skyv2.dbd37d93.jpg",
+  "static/media/Resume.css": "/static/media/FuturaLT-Book.eadddf05.woff",
   "static/css/2.fbc62d61.chunk.css.map": "/static/css/2.fbc62d61.chunk.css.map",
   "static/css/main.13f648fa.chunk.css.map": "/static/css/main.13f648fa.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.e5c3aedaee5b3bbaa92f4a33beda1713.js": "/precache-manifest.e5c3aedaee5b3bbaa92f4a33beda1713.js",
+  "precache-manifest.f4f9e6ef7f15dedc3c6b250dd67e83b4.js": "/precache-manifest.f4f9e6ef7f15dedc3c6b250dd67e83b4.js",
   "service-worker.js": "/service-worker.js"
 }
