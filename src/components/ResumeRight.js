@@ -1,6 +1,6 @@
 import React from 'react';
 import { ExperienceList } from '../components/ExperienceList';
-import pdf from '../assets/file/resume-fazrin-v4.pdf';
+import pdf from '../assets/file/Resume-fazrin-2022.pdf';
 
 export const ResumeRight = (props) => {
   const { my, experiences } = props.data;
