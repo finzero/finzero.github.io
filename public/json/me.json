@@ -1,11 +1,15 @@
 {
-  "name":"Fazrin Mutaqin",
+  "name": "Fazrin Mutaqin",
   "position": "Frontend Developer",
   "address": "Indonesia. Bandung 40256",
   "email": "fazrin.mutaqin@gmail.com",
   "website": "finzero.github.com",
+  "phone": "+6281222122616",
   "opener": "Bringing more than 6 years of experience leading website design projects, including gathering user requirements, producing code, creating mockups and enhancing designs. Focused on creating clean, robust code with exceptional security. Achieves compatibility targets while meeting and exceeding customer demands.",
   "title": "Bachelor Degree of Information Technology",
   "campus": "PKN LPKIA Bandung",
-  "hobbies": "Futsal, FPS Game, Reading Novel, Reading Manga and Drinking Coffee"
+  "hobbies": "Futsal, FPS Game, Reading Novel, Reading Manga and Drinking Coffee",
+  "skills": ["HTML", "CSS/SCSS", "Javascript"],
+  "libraries": ["ReactJS", "Redux"],
+  "frameworks": ["AngularJS", "Angular (2+)", "ExtJS", "Laravel"]
 }

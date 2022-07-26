@@ -21,6 +21,11 @@
   margin-right: -10px;
   padding: 5px 10px;
 }
+.subtitle{
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
 .right-title{
   color: #002d7c;
   font-weight: 800;
@@ -50,6 +55,7 @@
 .left-container{
   background: #203d78;
   color: white;
+  text-align: right;
 }
 .right-container{
   background-color: #ffffff;
