@@ -11,10 +11,6 @@ function App() {
     setPage(page === 'Portofolio' ? 'Resume' : 'Portofolio');
   };
 
-  useEffect(() => {
-    setPage('Resume');
-  }, []);
-
   return (
     <Fragment>
       <button onClick={togglePage} className={'float-btn ' + page}>
