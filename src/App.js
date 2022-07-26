@@ -14,7 +14,7 @@ function App() {
   return (
     <Fragment>
       <button onClick={togglePage} className={'float-btn ' + page}>
-        {page}
+        {page === 'Portofolio' ? 'Resume' : 'Portofolio'}
       </button>
       {page === 'Portofolio' ? <Portofolio /> : <Resume />}
     </Fragment>
