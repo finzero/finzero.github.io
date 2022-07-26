@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "39318f703f9754734fe3",
+    "revision": "6f336ac240d67d04d946",
     "url": "/static/css/main.f26eb957.chunk.css"
   },
   {
-    "revision": "39318f703f9754734fe3",
-    "url": "/static/js/main.39318f70.chunk.js"
+    "revision": "6f336ac240d67d04d946",
+    "url": "/static/js/main.6f336ac2.chunk.js"
   },
   {
     "revision": "41211fcf000cf3a9973c",
@@ -36,10 +36,6 @@ self.__precacheManifest = [
     "url": "/static/media/Resume-fazrin-2022.c1a7c3ae.pdf"
   },
   {
-    "revision": "27eca0dd8380d38f51eb305c99595c3d",
-    "url": "/static/media/pantai.27eca0dd.jpg"
-  },
-  {
     "revision": "eadddf05603e110b01bccd96fc0a401d",
     "url": "/static/media/FuturaLT-Book.eadddf05.woff"
   },
@@ -48,7 +44,11 @@ self.__precacheManifest = [
     "url": "/static/media/starry-night-skyv2.dbd37d93.jpg"
   },
   {
-    "revision": "f5fce8a60ce6cd5989ef4855af394f1b",
+    "revision": "27eca0dd8380d38f51eb305c99595c3d",
+    "url": "/static/media/pantai.27eca0dd.jpg"
+  },
+  {
+    "revision": "2cb47959dc39490ca008c56224c8aa91",
     "url": "/index.html"
   }
 ];
