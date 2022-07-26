@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d25e694b90958f1e2f9f",
-    "url": "/static/css/main.13f648fa.chunk.css"
+    "revision": "7608c231ecbbc11a33dd",
+    "url": "/static/css/main.f26eb957.chunk.css"
   },
   {
-    "revision": "d25e694b90958f1e2f9f",
-    "url": "/static/js/main.d25e694b.chunk.js"
+    "revision": "7608c231ecbbc11a33dd",
+    "url": "/static/js/main.7608c231.chunk.js"
   },
   {
     "revision": "41211fcf000cf3a9973c",
@@ -32,8 +32,12 @@ self.__precacheManifest = [
     "url": "/static/media/father-n-son.909296b0.jpg"
   },
   {
-    "revision": "f8db19a28e9dbddb83009063a39b8fda",
-    "url": "/static/media/Resume-fazrin-2022.f8db19a2.pdf"
+    "revision": "c1a7c3ae9be46e7dd832e7abd33305ad",
+    "url": "/static/media/Resume-fazrin-2022.c1a7c3ae.pdf"
+  },
+  {
+    "revision": "eadddf05603e110b01bccd96fc0a401d",
+    "url": "/static/media/FuturaLT-Book.eadddf05.woff"
   },
   {
     "revision": "27eca0dd8380d38f51eb305c99595c3d",
@@ -44,11 +48,7 @@ self.__precacheManifest = [
     "url": "/static/media/starry-night-skyv2.dbd37d93.jpg"
   },
   {
-    "revision": "eadddf05603e110b01bccd96fc0a401d",
-    "url": "/static/media/FuturaLT-Book.eadddf05.woff"
-  },
-  {
-    "revision": "db24f532c0e42a77a90b0af1c484acc4",
+    "revision": "1186b54532847362c48e3cbfce6815af",
     "url": "/index.html"
   }
 ];
