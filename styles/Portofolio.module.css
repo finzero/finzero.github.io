@@ -1,0 +1,20 @@
+.aboutMe{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.name, .pict, .summary{
+  flex-wrap: wrap;
+  width: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.pict{
+  justify-content: center;
+}
+.pict img{
+  border-radius: 50%;
+  width: 100%;
+}
