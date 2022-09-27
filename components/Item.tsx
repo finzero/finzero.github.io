@@ -1,11 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from '../styles/Items.module.css';
+import Image from 'next/image';
 
 export const Item = (props: any) => {
   const { src, alt, title, link, label } = props.item;
-  const Img = <img src={src} alt={alt} title={title} srcSet="" />;
+  const Img = (
+    <Image src={src} alt={alt} title={title} width={50} height={50} />
+  );
   return (
-    <div>
+    <div className={label ? styles.withTitle : ''}>
       {link ? (
         <a href={link} target="_blank" rel="noopener noreferrer">
           {Img}

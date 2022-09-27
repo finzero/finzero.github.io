@@ -1,8 +1,18 @@
+.portofolioContainer{
+  
+}
 .aboutMe{
   display: flex;
   justify-content: space-between;
   padding-top: 100px;
+  font-size: 14px;
 }
+
+.aboutMe p{
+  display: flex;
+  align-items: center;
+}
+
 .name, .pict, .summary{
   flex-wrap: wrap;
   width: calc(100% / 3);
@@ -11,10 +21,43 @@
   padding: 10px;
 }
 
+.summary{
+  font-size: 16px;
+  text-shadow: 0 0 10px #fff;
+}
+
 .pict{
   justify-content: center;
 }
+
 .pict img{
   border-radius: 50%;
   width: 100%;
+}
+
+.myName{
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.jobTitle{
+  font-size: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .aboutMe{
+    flex-direction: column;
+  }
+  .aboutMe>div{
+    width: 100%;
+  }
+  .name{
+    order: 2
+  }
+  .pict{
+    order: 1
+  }
+  .summary{
+    order: 3
+  }
 }

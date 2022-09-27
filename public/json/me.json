@@ -10,8 +10,8 @@
   "title": "Bachelor Degree of Information Technology",
   "campus": "PKN LPKIA Bandung",
   "hobbies": "Futsal, FPS Game, Reading Novel, Reading Manga and Drinking Coffee",
-  "skills": ["HTML", "CSS/SCSS", "Javascript"],
+  "skills": ["HTML", "CSS/SCSS", "Javascript/Typescrypt"],
   "libraries": ["ReactJS", "Redux", "RxJS"],
-  "frameworks": ["AngularJS", "Angular (2+)", "ExtJS", "Laravel"],
-  "graphics": ["Photoshop", "GIMP"]
+  "frameworks": ["AngularJS", "Angular (2+)", "ExtJS", "Laravel", "NEXT"],
+  "graphics": ["Photoshop", "GIMP", "Figma"]
 }

@@ -13,11 +13,17 @@ body {
 
 body .night {
   background: url(../public/starry-night.jpg);
+  color: white;
 }
 
 body .day {
   background: url(../public/pantai.jpg);
   background-size: cover;
+}
+
+.night ~ .float-btn{
+  background: #FFFFFF;
+  color: #000000;
 }
 
 .container {
@@ -42,4 +48,101 @@ a {
     color: white;
     background: black;
   }
+}
+
+.mt-4{
+  margin-top: 1.5rem;
+}
+
+p{
+  font-size: 16px;
+}
+
+.title {
+  font-weight: bold;
+  min-width: 200px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 3px 50px;
+  -webkit-border-top-right-radius: 30px;
+  -moz-border-radius-topright: 30px;
+  border-top-right-radius: 30px;
+}
+
+.night .title{
+  border-top: 1px solid #fff;
+}
+
+.float-btn {
+  z-index: 2;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 10px;
+  border-radius: 100px;
+  border: 1px solid #000000;
+
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 4s ease-in-out infinite;
+  background: #000000;
+  font-weight: bold;
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.float-btn.Resume{
+  bottom: 10px;
+  top: auto;
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+.fs-16{
+  font-size: 16px;
+}
+
+.fs-14{
+  font-size: 14px;
+}
+
+.fs-25{
+  font-size: 25px;
+}
+
+.mt-1{
+  margin-top: 0.25em;
+}
+
+.mt-2{
+  margin-top: 1em;
+}
+
+.mt-3{
+  margin-top: 1.5em;
+}
+
+.mt-4{
+  margin-top: 2em;
+}
+
+.contact-icon {
+  width: 24px;
+}
+
+.subtitle{
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+
+.padding-container{
+  padding: 10px;
+  font-size: 14px;
 }
