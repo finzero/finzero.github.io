@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { NextPage } from 'next';
 import Image, { StaticImageData } from 'next/image';
 import styles from '../styles/Resume.module.css';
@@ -17,9 +17,19 @@ const Contact = (props: { data: string; icon: StaticImageData }) => (
   </div>
 );
 
-const Resume: NextPage = () => {
-  console.log('myInfo', my);
+const Skill = (props: { skillName: string; skills: any[] }) => (
+  <Fragment>
+    <div className="mt-3 subtitle">{props.skillName}</div>
+    {props.skills &&
+      props.skills.map((skill) => (
+        <div key={skill} className="mt-1">
+          {skill}
+        </div>
+      ))}
+  </Fragment>
+);
 
+const Resume: NextPage = () => {
   return (
     <div className={styles.resumeContainer}>
       <div className={styles.resumeLeft}>
@@ -42,27 +52,10 @@ const Resume: NextPage = () => {
           </div>
           <div className={styles.resumeLeftTitle}>Skills</div>
           <div className="padding-container">
-            <div className="mt-1 subtitle">Languages</div>
-            {my.skills &&
-              my.skills.map((skill) => <div className="mt-1">{skill}</div>)}
-
-            <div className="mt-3 subtitle">Libraries</div>
-            {my.libraries &&
-              my.libraries.map((library) => (
-                <div className="mt-1">{library}</div>
-              ))}
-
-            <div className="mt-3 subtitle">Frameworks</div>
-            {my.frameworks &&
-              my.frameworks.map((framework) => (
-                <div className="mt-1">{framework}</div>
-              ))}
-
-            <div className="mt-3 subtitle">Graphic Design</div>
-            {my.graphics &&
-              my.graphics.map((graphic) => (
-                <div className="mt-1">{graphic}</div>
-              ))}
+            <Skill skillName="Languages" skills={my.skills} />
+            <Skill skillName="Libraries" skills={my.libraries} />
+            <Skill skillName="Frameworks" skills={my.frameworks} />
+            <Skill skillName="Graphic Design" skills={my.graphics} />
           </div>
         </div>
       </div>
