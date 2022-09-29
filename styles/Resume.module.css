@@ -59,3 +59,51 @@
   border-bottom: 1px solid #000;
   margin-bottom: 10px;
 }
+
+.toggleLeftSide{
+  display: none;
+  text-align: right;
+  padding-right: 15px;
+  font-size: 30px;
+  background: #000000;
+}
+
+@media screen and (max-width: 425px) {
+
+  .toggleLeftSide{
+    display: block;
+    cursor: pointer;
+  }
+
+  .toggleLeftSide::after{
+    content: '\00BB';
+  }
+
+  .show .toggleLeftSide::after{
+    content: '\00AB';
+  }
+
+  .resumeLeft{
+    width: 50px;
+    position: fixed;
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  
+  .resumeLeft.show{
+    width: 250px;
+    overflow: auto;
+  }
+
+  .resumeLeft *:not(.toggleLeftSide){
+    visibility: hidden;
+  }
+
+  .resumeLeft.show *:not(.toggleLeftSide){
+    visibility: visible;
+  }
+
+  .resumeRight{
+    padding-left: 60px;
+  }
+}

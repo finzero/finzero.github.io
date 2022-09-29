@@ -14,9 +14,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   const togglePage = (e: MouseEvent) => {
-    setPage((page: string) => {
+    setPage(() => {
       e.preventDefault();
-      if (page === 'Portofolio') {
+      const route = router.asPath;
+      if (route === '/portofolio') {
         router.push('/resume');
         return 'Resume';
       } else {
@@ -28,7 +29,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   };
 
   const FloatButton = () => (
-    <button onClick={togglePage} className={'float-btn ' + page}>
+    <button onClick={togglePage} className={'float-btn'}>
       {page === 'Portofolio' ? 'Resume' : 'Portofolio'}
     </button>
   );

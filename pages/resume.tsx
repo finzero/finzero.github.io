@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import { NextPage } from 'next';
 import Image, { StaticImageData } from 'next/image';
 import styles from '../styles/Resume.module.css';
@@ -32,9 +32,18 @@ const Skill = (props: { skillName: string; skills: any[] }) => (
 );
 
 const Resume: NextPage = () => {
+  const [toggleLeft, setToggleLeft] = useState(false);
+  const toggleLeftSide = () => {
+    setToggleLeft((toggleLeft) => !toggleLeft);
+  };
+
   return (
     <div className={styles.resumeContainer}>
-      <div className={styles.resumeLeft}>
+      <div className={`${styles.resumeLeft} ${toggleLeft ? styles.show : ''}`}>
+        <div
+          className={`${styles.toggleLeftSide} text-center`}
+          onClick={toggleLeftSide}
+        ></div>
         <div className={styles.resumeProfilePict}>
           <Image src={profilePictResume}></Image>
         </div>

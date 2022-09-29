@@ -5,7 +5,6 @@ import styles from '../styles/Experience.module.css';
 export const Experience = (props: { data: IExperience }) => {
   const { workDate, position, employer, responsibilities, projects } =
     props.data;
-  console.log('props', props);
 
   return (
     <div className={styles.experienceContainer}>
