@@ -4,7 +4,6 @@ import styles from '../styles/Portofolio.module.css';
 import Image from 'next/image';
 import pict from '../public/img/father-n-son.jpg';
 import { Items } from '../components/Items';
-import Axios from 'axios';
 import mySkills from '../public/json/skills.json';
 import ThemeToggle from '../components/ThemeToggle';
 

@@ -1,6 +1,5 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import ThemeToggle from '../components/ThemeToggle';
 import { MouseEvent, useState } from 'react';
 import { useRouter } from 'next/router';
 
