@@ -1,0 +1,23 @@
+.workTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.workEmployer {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.workDate{
+  min-width: 200px;
+}
+
+.experienceContainer{
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.responsibilities{
+  padding: 0 10px;
+  margin: 0 10px;
+}

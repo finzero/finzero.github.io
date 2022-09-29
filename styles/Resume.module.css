@@ -37,7 +37,8 @@
 }
 
 .resumeRight {
-  flex-basis: 3;
+  width: 100%;
+  padding-left: 10px;
 }
 
 .resumeLeftTitle {
@@ -47,4 +48,14 @@
   font-size: 18px;
   padding: 5px 10px;
   margin-top: 1.5em;
+}
+
+.resumeRightTitle{
+  color: #002d7c;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 5px 10px;
+  /* border-top: 1px solid #000; */
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
 }

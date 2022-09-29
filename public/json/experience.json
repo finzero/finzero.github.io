@@ -11,6 +11,54 @@
       "Designed responsive web application for user friendly UI in both desktop & mobile.",
       "Working in an agile based development, participate in all agile activity such as daily scrum,scoring, refinement, & retrospective.",
       "Discussed site and app requirements with clients to produce actionable development plans."
+    ],
+    "projects": [
+      {
+        "title": "Frontend System for Banking, Pension Saving System",
+        "technologies": [
+          "Angular 2",
+          "Java Spring Boot (API)",
+          "NodeJS",
+          "Oracle"
+        ]
+      },
+      {
+        "title": "Frontend Data Matching for a private Bank",
+        "technologies": [
+          "Angular 7",
+          "Java Spring Boot (API)",
+          "Websocket",
+          "Docker"
+        ]
+      },
+      {
+        "title": "Online Health Consultation",
+        "technologies": [
+          "Angular 9",
+          "FCM (Firebase Cloud Messaging)",
+          "UmeetMe",
+          "Twillio",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Car Loan Application for Corporate User",
+        "technologies": [
+          "Angular 10",
+          "Docker",
+          "Java Spring Boot (API)",
+          "SQL Server"
+        ]
+      },
+      {
+        "title": "Car Loan Application for Individual User",
+        "technologies": [
+          "Angular 10",
+          "Docker",
+          "Java Spring Boot (API)",
+          "SQL Server"
+        ]
+      }
     ]
   },
   {
@@ -25,6 +73,20 @@
       "Discussed site and app requirements with clients to produce actionable development plans.",
       "Provided support and patching on website interface to maintain viability after launch.",
       "Provide help to Back End Developer to build API for Front End application need using laravel."
+    ],
+    "projects": [
+      {
+        "title": "Fashion Blog",
+        "technologies": ["Symfony", "AngularJS"]
+      },
+      {
+        "title": "E-Commerce For Digital Product",
+        "technologies": ["AngularJS", "Laravel", "MySQL", "JQuery"]
+      },
+      {
+        "title": "CMS for E-Commerce",
+        "technologies": ["Laravel", "MySQL"]
+      }
     ]
   },
   {
@@ -36,6 +98,16 @@
       "Discussed site and app requirements with clients to produce actionable development plans.",
       "Designed and updated layouts to meet usability and performance requirements.",
       "Install application on all user branches."
+    ],
+    "projects": [
+      {
+        "title": "Point Of Sale for a Restaurant",
+        "technologies": ["CSS", "Yii", "JQuery", "MySQL"]
+      },
+      {
+        "title": "Stock Management",
+        "technologies": ["PHP", "MySQL", "JQuery"]
+      }
     ]
   },
   {
@@ -48,6 +120,16 @@
       "Designed and updated layouts to meet usability and performance requirements.",
       "Researched emerging web technologies and trends for possible incorporation into sites.",
       "Train some users before rollout the application."
+    ],
+    "projects": [
+      {
+        "title": "Company Profile",
+        "technologies": ["CSS", "HTML", "JQuery"]
+      },
+      {
+        "title": "Site Management",
+        "technologies": ["ExtJS", "PHP", "Oracle", "JQuery"]
+      }
     ]
   },
   {
@@ -57,6 +139,7 @@
     "responsibilities": [
       "Assembing PC according to customer request.",
       "Serve customers that come to shop."
-    ]
+    ],
+    "projects": []
   }
 ]

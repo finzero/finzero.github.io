@@ -3,12 +3,14 @@ import { NextPage } from 'next';
 import Image, { StaticImageData } from 'next/image';
 import styles from '../styles/Resume.module.css';
 import my from '../public/json/me.json';
+import experiences from '../public/json/experience.json';
 import linkedinIcon from '../public/img/linkedin-icon.png';
 import webIcon from '../public/img/web-icon.png';
 import emailIcon from '../public/img/email-icon.png';
 import homeIcon from '../public/img/home-icon.png';
 
 import profilePictResume from '../public/img/profile-pict-2.jpg';
+import { ExperienceList } from '../components/ExperienceList';
 
 const Contact = (props: { data: string; icon: StaticImageData }) => (
   <div className={styles.contactItem}>
@@ -59,7 +61,10 @@ const Resume: NextPage = () => {
           </div>
         </div>
       </div>
-      <div className={styles.resumeRight}>kanan</div>
+      <div className={styles.resumeRight}>
+        <div className={styles.resumeRightTitle}>Work Experience</div>
+        <ExperienceList exps={experiences} />
+      </div>
     </div>
   );
 };
