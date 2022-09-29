@@ -1,16 +1,37 @@
 {
   "skills": [
     { "src": "./50px/angular.png", "alt": "Angular", "title": "Angular" },
-    { "src": "./50px/javascript.png", "alt": "Javascript", "title": "Javascript" },
-    { "src": "./50px/typescript.png", "alt": "Typescript", "title": "Typescript" },
-    { "src": "./50px/react--blackicon-50.png", "alt": "ReactJS", "title": "ReactJS" },
+    {
+      "src": "./50px/javascript.png",
+      "alt": "Javascript",
+      "title": "Javascript"
+    },
+    {
+      "src": "./50px/typescript.png",
+      "alt": "Typescript",
+      "title": "Typescript"
+    },
+    {
+      "src": "./50px/react--blackicon-50.png",
+      "alt": "ReactJS",
+      "title": "ReactJS"
+    },
+    { "src": "./50px/nextjs.png", "alt": "NextJS", "title": "NEXTjs" },
     { "src": "./50px/css3.png", "alt": "CSS3", "title": "CSS3" },
     { "src": "./50px/html5.png", "alt": "HTML5", "title": "HTML5" },
     { "src": "./50px/git.png", "alt": "Git", "title": "Git" },
     { "src": "./50px/php-circle-50.png", "alt": "PHP", "title": "PHP" },
-    { "src": "./50px/mysql-logo-blue-50.png", "alt": "MySQL", "title": "MySQL" },
+    {
+      "src": "./50px/mysql-logo-blue-50.png",
+      "alt": "MySQL",
+      "title": "MySQL"
+    },
     { "src": "./50px/ext-js-50.png", "alt": "ExtJS", "title": "ExtJS" },
-    { "src": "./50px/postgresql.png", "alt": "PostgreSQL", "title": "PostgreSQL" },
+    {
+      "src": "./50px/postgresql.png",
+      "alt": "PostgreSQL",
+      "title": "PostgreSQL"
+    },
     { "src": "./50px/docker-0.png", "alt": "Docker", "title": "Docker" }
   ],
   "works": [
@@ -46,7 +67,7 @@
       "label": "Banking Application"
     }
   ],
-  "socialMedia" : [
+  "socialMedia": [
     {
       "src": "./50px/facebook-50.png",
       "link": "https://id-id.facebook.com/fazrin.green",

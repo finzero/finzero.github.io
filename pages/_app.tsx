@@ -1,5 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
+import Head from 'next/head';
 import { MouseEvent, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 
@@ -36,6 +37,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <div className={`container`}>
+      <Head>
+        <title>Fazrin Mutaqin - Resume</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Component {...pageProps} />
       <FloatButton />
     </div>
