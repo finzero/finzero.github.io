@@ -38,6 +38,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="description"
           content="Fazrin Mutaqin is an experienced frontend developer. Meet a lot of people, working in a team and keep improving myself."
         />
+        <meta name="color-scheme" content="light only" />
       </Head>
       <Component {...pageProps} />
       <FloatButton />
