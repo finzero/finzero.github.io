@@ -8,12 +8,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const [page, setPage] = useState('Portofolio');
 
-  useEffect(() => {
-    if (router.asPath === '/') {
-      router.push('/portofolio');
-    }
-  }, []);
-
   const togglePage = (e: MouseEvent) => {
     setPage(() => {
       e.preventDefault();
@@ -40,6 +34,10 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>Fazrin Mutaqin - Resume</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Fazrin Mutaqin is an experienced frontend developer. Meet a lot of people, working in a team and keep improving myself."
+        />
       </Head>
       <Component {...pageProps} />
       <FloatButton />

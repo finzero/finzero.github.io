@@ -8,18 +8,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  redirects: false,
-  rewrites: false,
-  headers: false,
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/portofolio',
-        permanent: true,
-      },
-    ];
-  },
 };
 
 module.exports = nextConfig;
