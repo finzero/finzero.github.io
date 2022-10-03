@@ -66,8 +66,8 @@
 }
 
 /* below for portofolio v2*/
-.portofolioContainer {
-  background: rgb(0, 0, 0);
+.portofolioContainerv2 {
+  background: rgb(0, 0, 0, .85);
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -98,6 +98,7 @@
 
 .portoProfilePict img{
  border-radius: 50%; 
+ z-index: 2;
 }
 
 .portoProfilePict::after {
@@ -147,6 +148,16 @@
 .aboutMev2 {
   font-size: 18px;
   margin-top: 1em;
+}
+
+.mySkills{
+  display: flex;
+  gap: 10px;
+  margin-top: 3em;
+}
+
+.mySkills img{
+  cursor: pointer;
 }
 
 @keyframes moveGradient {

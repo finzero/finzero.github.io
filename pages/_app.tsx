@@ -1,42 +1,9 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import { MouseEvent, useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+import ResumeSidebar from './layout/resume-sidebar';
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const router = useRouter();
-  const [page, setPage] = useState('Portofolio');
-
-  useEffect(() => {
-    if (router.asPath === '/resume') {
-      setPage('Resume');
-    } else {
-      setPage('Portofolio');
-    }
-  }, []);
-
-  const togglePage = (e: MouseEvent) => {
-    setPage(() => {
-      e.preventDefault();
-      const route = router.asPath;
-      if (route === '/portofolio') {
-        router.push('/resume');
-        return 'Resume';
-      } else {
-        router.push('/portofolio');
-        return 'Portofolio';
-      }
-    });
-    //do redirect here
-  };
-
-  const FloatButton = () => (
-    <button onClick={togglePage} className={'float-btn'}>
-      {page === 'Portofolio' ? 'Resume' : 'Portofolio'}
-    </button>
-  );
-
   return (
     <div className={`container`}>
       <Head>
@@ -48,8 +15,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta name="color-scheme" content="light only" />
       </Head>
+      <ResumeSidebar />
       <Component {...pageProps} />
-      <FloatButton />
     </div>
   );
 }

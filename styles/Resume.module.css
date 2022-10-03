@@ -68,6 +68,40 @@
   background: #000000;
 }
 
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  background: rgb(0 0 0 / 20%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebarMenu{
+  width: 80%;
+}
+
+.sidebarMenu > div{
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  transition: ease-in-out .2s;
+  color: #fff;
+}
+
+.sidebarMenu > div.active,
+.sidebarMenu > div:hover{
+  background: #72E2AE;
+  border-radius: 20px;
+  color: #000000;
+}
+
 @media screen and (max-width: 425px) {
 
   .toggleLeftSide{
