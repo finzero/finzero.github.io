@@ -13,30 +13,40 @@ export const Experience = (props: { data: IExperience }) => {
         <div className={styles.workTitle}>
           {employer} - {position}
         </div>
-        <div className={styles.workEmployer}>Responsibilities</div>
         <div className={styles.history}>
-          <ul className={styles.responsibilities}>
-            {!!responsibilities.length &&
-              responsibilities.map((r, i) => (
-                <li key={'responsibility-' + i}>{r}</li>
-              ))}
-          </ul>
-          <strong>
-            <i>Projects</i>
-          </strong>
+          {projects.length ? (
+            <div className={styles.projectLabel}>Projects:</div>
+          ) : null}
           <div>
             {!!projects.length &&
               projects.map((p, i) => (
-                <li key={'project-' + i}>
-                  {p.title}
-                  <br />
-                  <div>
-                    &emsp;
-                    <strong>Technology:</strong> {p.technologies.join(', ')}
+                <div key={'project-' + i}>
+                  <div className={styles.projectName}>{p.title}</div>
+                  <div className={styles.projectDesc}>{p.description}</div>
+                  {p.technologies && (
+                    <div>
+                      <strong>Stack:</strong> {p.technologies.join(', ')}.
+                    </div>
+                  )}
+                  <div className="">
+                    <strong>Responsibilities:</strong>
                   </div>
-                </li>
+                  {p.responsibilities &&
+                    p.responsibilities.map((res: any, resI: number) => (
+                      <li key={resI}>{res}</li>
+                    ))}
+                </div>
               ))}
           </div>
+          {responsibilities && (
+            <div>
+              <strong>Responsibilities:</strong>
+            </div>
+          )}
+          {responsibilities &&
+            responsibilities.map((r: any, rIdx: number) => (
+              <li key={'responsibility-' + rIdx}>{r}</li>
+            ))}
         </div>
       </div>
     </div>

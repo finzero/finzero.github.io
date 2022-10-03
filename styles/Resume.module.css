@@ -3,7 +3,7 @@
 }
 
 .resumeLeft {
-  width: 250px;
+  width: 300px;
   justify-content: flex-start;
   background: #203d78;
   color: #fff;
@@ -91,7 +91,7 @@
   }
   
   .resumeLeft.show{
-    width: 250px;
+    width: 300px;
     overflow: auto;
   }
 

@@ -3,61 +3,96 @@
     "workDate": "Sep 2016 - Present",
     "position": "Front End Developer",
     "employer": "Emveep",
-    "responsibilities": [
-      "Develop web application using frontend framework/library.",
-      "Working together with Back End Developer & discussed APIs needed for features to build.",
-      "Working with QA to ensure delivery with minimum issues.",
-      "Design component based UI for easier debugging & faster development.",
-      "Designed responsive web application for user friendly UI in both desktop & mobile.",
-      "Working in an agile based development, participate in all agile activity such as daily scrum,scoring, refinement, & retrospective.",
-      "Discussed site and app requirements with clients to produce actionable development plans."
-    ],
     "projects": [
       {
+        "title": "Car Loan Application for Individual User",
+        "description": "an Application that handle car loan transaction for individual user",
+        "technologies": [
+          "Angular 10",
+          "Docker",
+          "Java Spring Boot (API)",
+          "SQL Server"
+        ],
+        "responsibilities": [
+          "Daily Scrum with development team",
+          "Convert figma into a working angular template",
+          "Weekly meeting with BISPRO team",
+          "Build mobile & desktop web based application UI Interface"
+        ]
+      },
+      {
+        "title": "Car Loan Application for Corporate User",
+        "description": "an Application that handle car loan transaction for corporate user",
+        "technologies": [
+          "Angular 10",
+          "Docker",
+          "Java Spring Boot (API)",
+          "SQL Server"
+        ],
+        "responsibilities": [
+          "Daily Scrum with Team and client",
+          "Convert figma into a working angular template",
+          "Implement Changes based on product owner request",
+          "Weekly progress update to client",
+          "Help client deploy application to their private server"
+        ]
+      },
+      {
         "title": "Frontend System for Banking, Pension Saving System",
+        "description": "Application that handles banking transactions & data management such as hold amount, clearing, check stock, etc.",
         "technologies": [
           "Angular 2",
           "Java Spring Boot (API)",
           "NodeJS",
           "Oracle"
+        ],
+        "responsibilities": [
+          "Write an angular application that handle bank transactions",
+          "Join weekly meeting between Frontend Developers for knowledge sharing",
+          "Join Agile Development activity such as refinement, sprint planning, daily stand up, sprint review & retrospective.",
+          "Working with backend developer to integrate Frontend and backend",
+          "Working with QA to ensure minimum bug delivery"
         ]
       },
       {
         "title": "Frontend Data Matching for a private Bank",
+        "description": "an Application that show list of users data matching for banking purpose.",
         "technologies": [
           "Angular 7",
           "Java Spring Boot (API)",
           "Websocket",
           "Docker"
+        ],
+        "responsibilities": [
+          "Work with backend developer to integrate data from matching service to user device",
+          "Update progress to user per sprint",
+          "Deploy to client staging server",
+          "Prepare docker image in *.tar for production",
+          "Providing guide to client IT to deploy app on their private production server"
         ]
       },
       {
         "title": "Online Health Consultation",
+        "description": "a Health tech platform to make patient connecting with doctors",
         "technologies": [
           "Angular 9",
           "FCM (Firebase Cloud Messaging)",
           "UmeetMe",
           "Twillio",
           "PostgreSQL"
+        ],
+        "responsibilities": [
+          "Do a sprint planning with product owner/client",
+          "Add/Remove Feature based on product owner request",
+          "Work with another team to integrate UmeetMe",
+          "Integrate 3rd Party push notification FCM"
         ]
       },
       {
-        "title": "Car Loan Application for Corporate User",
-        "technologies": [
-          "Angular 10",
-          "Docker",
-          "Java Spring Boot (API)",
-          "SQL Server"
-        ]
-      },
-      {
-        "title": "Car Loan Application for Individual User",
-        "technologies": [
-          "Angular 10",
-          "Docker",
-          "Java Spring Boot (API)",
-          "SQL Server"
-        ]
+        "title": "CMS for Online Health Consultation",
+        "description": "Content Management System for Health tech platform",
+        "technologies": ["AngularJS", "PostgreSQL", "Laravel", "FCM"],
+        "responsibilities": ["Create CMS for Online Health Consultation"]
       }
     ]
   },
@@ -65,27 +100,46 @@
     "workDate": "May 2013 - Sep 2016",
     "position": "Front End Developer",
     "employer": "Walden Global Service",
-    "responsibilities": [
-      "Develop web application with various javascript framwork such as ExtJs, Angular, AngularJS.",
-      "Build responsive web application for user friendly UI in both mobile & desktop.",
-      "Work together with backend for APIs needed by the application.",
-      "Work together with QA to ensure delivery with minimum issues.",
-      "Discussed site and app requirements with clients to produce actionable development plans.",
-      "Provided support and patching on website interface to maintain viability after launch.",
-      "Provide help to Back End Developer to build API for Front End application need using laravel."
-    ],
     "projects": [
       {
         "title": "Fashion Blog",
-        "technologies": ["Symfony", "AngularJS"]
+        "description": "Blog for fashion, users can join campaign to get endorsement",
+        "technologies": ["Symfony", "AngularJS"],
+        "responsibilities": ["Work with API Provider to integrate data into UI"]
       },
       {
         "title": "E-Commerce For Digital Product",
-        "technologies": ["AngularJS", "Laravel", "MySQL", "JQuery"]
+        "description": "e-commerce website for digital product such as camera, smartphone, headphone, etc.",
+        "technologies": ["AngularJS", "Laravel", "MySQL", "JQuery"],
+        "responsibilities": [
+          "Integrate with 3rd party payment gateway as payment methods",
+          "Update feature based on user feedback"
+        ]
       },
       {
         "title": "CMS for E-Commerce",
-        "technologies": ["Laravel", "MySQL"]
+        "description": "CMS for e-commerce such as setting banner, setup discount products, etc",
+        "technologies": ["Laravel", "MySQL"],
+        "responsibilities": [
+          "Develop CMS features for E-Commerce such as set discount products, editor picks, banners, add buyer testimonies, etc"
+        ]
+      },
+      {
+        "title": "Medical Equipment Check",
+        "description": "Assets management application for medical equipments",
+        "technologies": ["ExtJS", "RoR", "PostgreSQL"],
+        "responsibilities": [
+          "Daily Scrum",
+          "Work with QA to ensure minimum bug deployment"
+        ]
+      },
+      {
+        "title": "Electric Products Management",
+        "technologies": ["ExtJS", "RoR", "PostgreSQL"],
+        "responsibilities": [
+          "Daily Scrum",
+          "Work with QA to ensure minimum bug deployment"
+        ]
       }
     ]
   },
@@ -93,20 +147,23 @@
     "workDate": "May 2012 - May 2013",
     "position": "Web Developer",
     "employer": "CV Surya Fokus Mandiri",
-    "responsibilities": [
-      "Planned website development, develop application with HTML, JQuery, YII Framework & MySQL.",
-      "Discussed site and app requirements with clients to produce actionable development plans.",
-      "Designed and updated layouts to meet usability and performance requirements.",
-      "Install application on all user branches."
-    ],
     "projects": [
       {
         "title": "Point Of Sale for a Restaurant",
-        "technologies": ["CSS", "Yii", "JQuery", "MySQL"]
+        "technologies": ["Yii", "JQuery", "MySQL"],
+        "responsibilities": [
+          "Create Point of Sale (POS) application using YII Framework (PHP)",
+          "Install application on all restaurant branches",
+          "Discussing with client regarding some feature that will be developed"
+        ]
       },
       {
         "title": "Stock Management",
-        "technologies": ["PHP", "MySQL", "JQuery"]
+        "technologies": ["PHP", "MySQL", "JQuery"],
+        "responsibilities": [
+          "Develop application that handle stock on the warehouse",
+          "Discus with user & product owner to get input of the application"
+        ]
       }
     ]
   },
@@ -114,21 +171,22 @@
     "workDate": "Mar 2011 - May 2012",
     "position": "Web Developer",
     "employer": "PT KIB",
-    "responsibilities": [
-      "Planned website development, develop application with HTML, ExtJS Library, JQuery, PHP Native & Oracle.",
-      "Discussed site and app requirements with clients to produce actionable development plans.",
-      "Designed and updated layouts to meet usability and performance requirements.",
-      "Researched emerging web technologies and trends for possible incorporation into sites.",
-      "Train some users before rollout the application."
-    ],
     "projects": [
       {
         "title": "Company Profile",
-        "technologies": ["CSS", "HTML", "JQuery"]
+        "technologies": ["CSS", "HTML", "JQuery"],
+        "responsibilities": [
+          "Develop static company profile web based on request"
+        ]
       },
       {
-        "title": "Site Management",
-        "technologies": ["ExtJS", "PHP", "Oracle", "JQuery"]
+        "title": "Assets Management",
+        "technologies": ["ExtJS", "PHP", "Oracle", "JQuery"],
+        "responsibilities": [
+          "Do training for end users",
+          "Support after application went live",
+          "Add or Remove feature based on user request"
+        ]
       }
     ]
   },

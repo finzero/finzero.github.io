@@ -11,7 +11,7 @@
   "campus": "PKN LPKIA Bandung",
   "hobbies": "Futsal, FPS Game, Reading Novel, Reading Manga and Drinking Coffee",
   "skills": ["HTML", "CSS/SCSS", "Javascript/Typescrypt"],
-  "libraries": ["ReactJS", "Redux", "RxJS"],
+  "libraries": ["ReactJS", "Redux", "RxJS", "NGXS"],
   "frameworks": ["AngularJS", "Angular (2+)", "ExtJS", "Laravel", "NEXT"],
   "graphics": ["Photoshop", "GIMP", "Figma"]
 }

@@ -8,22 +8,41 @@
   font-style: italic;
 }
 
-.workDate{
+.workDate {
   min-width: 200px;
 }
 
-.experienceContainer{
+.experienceContainer {
   display: flex;
   gap: 15px;
   margin-bottom: 20px;
 }
-.responsibilities{
+
+.responsibilities {
   padding: 0 10px;
   margin: 0 10px;
 }
 
+.projectName {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 1em;
+  color: #074275;
+}
+
+.projectDesc {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.projectLabel {
+  margin-top: 1em;
+  font-weight: 700;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 425px) {
-  .experienceContainer{
+  .experienceContainer {
     flex-direction: column;
   }
 }

@@ -8,6 +8,14 @@ function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const [page, setPage] = useState('Portofolio');
 
+  useEffect(() => {
+    if (router.asPath === '/resume') {
+      setPage('Resume');
+    } else {
+      setPage('Portofolio');
+    }
+  }, []);
+
   const togglePage = (e: MouseEvent) => {
     setPage(() => {
       e.preventDefault();
