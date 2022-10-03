@@ -4,11 +4,17 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Radio Canada';
+  src: url('../public/font/RadioCanada-VariableFont_wdth_wght.woff') format("WOFF");
+  font-weight: normal;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Futura';
+  font-family: 'Radio Canada';
 }
 
 body .night {

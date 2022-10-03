@@ -1,19 +1,18 @@
-.portofolioContainer{
-  
-}
-.aboutMe{
+.aboutMe {
   display: flex;
   justify-content: space-between;
   padding-top: 100px;
   font-size: 14px;
 }
 
-.aboutMe p{
+.aboutMe p {
   display: flex;
   align-items: center;
 }
 
-.name, .pict, .summary{
+.name,
+.pict,
+.summary {
   flex-wrap: wrap;
   width: calc(100% / 3);
   display: flex;
@@ -21,43 +20,137 @@
   padding: 10px;
 }
 
-.summary{
+.summary {
   font-size: 16px;
   text-shadow: 0 0 10px #fff;
 }
 
-.pict{
+.pict {
   justify-content: center;
 }
 
-.pict img{
+.pict img {
   border-radius: 50%;
   width: 100%;
 }
 
-.myName{
+.myName {
   font-size: 50px;
   font-weight: 700;
 }
 
-.jobTitle{
+.jobTitle {
   font-size: 20px;
 }
 
 @media screen and (max-width: 425px) {
-  .aboutMe{
+  .aboutMe {
     flex-direction: column;
   }
-  .aboutMe>div{
+
+  .aboutMe>div {
     width: 100%;
   }
-  .name{
+
+  .name {
     order: 2
   }
-  .pict{
+
+  .pict {
     order: 1
   }
-  .summary{
+
+  .summary {
     order: 3
+  }
+}
+
+/* below for portofolio v2*/
+.portofolioContainer {
+  background: rgb(0, 0, 0);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portoProfilePict {
+  border-radius: 50%;
+  overflow: hidden;
+
+  --border-width: 3px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  font-family: Lato, sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+  background: #222;
+  /* border-radius: var(--border-width); */
+
+}
+
+.portoProfilePict img{
+ border-radius: 50%; 
+}
+
+.portoProfilePict::after {
+  --border-width: 3px;
+  position: absolute;
+  content: "";
+  top: calc(-1 * var(--border-width));
+  left: calc(-1 * var(--border-width));
+  z-index: 1;
+  width: calc(100% + var(--border-width) * 2);
+  height: calc(100% + var(--border-width) * 2);
+  background: linear-gradient(60deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%));
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  /* border-radius: calc(2 * var(--border-width)); */
+  border-radius: 50%;
+  animation: moveGradient 4s alternate infinite;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 60%;
+  text-align: center;
+}
+
+.animatedText {
+  color: #72E2AE;
+}
+
+.introduction {
+  margin-top: 1em;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.aboutMev2 {
+  font-size: 18px;
+  margin-top: 1em;
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
   }
 }
