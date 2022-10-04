@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
-import ResumeSidebar from './layout/resume-sidebar';
+import NavSidebar from './layout/nav-sidebar';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta name="color-scheme" content="light only" />
       </Head>
-      <ResumeSidebar />
+      <NavSidebar />
       <Component {...pageProps} />
     </div>
   );
