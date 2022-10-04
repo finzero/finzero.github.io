@@ -9,6 +9,7 @@ const ResumeSidebar = () => {
   const [active, setActive] = useState('');
 
   useEffect(() => {
+    //set style on menu based on active route
     setActive(router.pathname);
   }, [router]);
 

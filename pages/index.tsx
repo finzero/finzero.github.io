@@ -7,11 +7,16 @@ import mySkills from '../public/json/skills.json';
 const Index = () => {
   const animatedEl = useRef<HTMLSpanElement>(null);
 
+  const { skills } = mySkills;
+
   useEffect(() => {
     const options = {
       strings: ['Fazrin Mutaqin ^1000 <br />Frontend Developer'],
       typeSpeed: 80,
       backSpeed: 50,
+      onComplete: (self: any) => {
+        self.cursor.remove();
+      },
     };
     const currentElement = animatedEl.current as HTMLSpanElement;
     const typed = new Typed(currentElement, options);

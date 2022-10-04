@@ -18,9 +18,12 @@
     },
     { "src": "./50px/nextjs.png", "alt": "NextJS", "title": "NEXTjs" },
     { "src": "./50px/css3.png", "alt": "CSS3", "title": "CSS3" },
+    { "src": "./50px/sass.png", "alt": "SASS", "title": "SASS" },
+    { "src": "./50px/bootstrap.png", "alt": "Bootstrap", "title": "Bootstrap" },
     { "src": "./50px/html5.png", "alt": "HTML5", "title": "HTML5" },
     { "src": "./50px/git.png", "alt": "Git", "title": "Git" },
     { "src": "./50px/php-circle-50.png", "alt": "PHP", "title": "PHP" },
+    { "src": "./50px/jquery.png", "alt": "JQuery", "title": "JQuery" },
     {
       "src": "./50px/mysql-logo-blue-50.png",
       "alt": "MySQL",
@@ -32,7 +35,17 @@
       "alt": "PostgreSQL",
       "title": "PostgreSQL"
     },
-    { "src": "./50px/docker-0.png", "alt": "Docker", "title": "Docker" }
+    {
+      "src": "./50px/graphql.png",
+      "alt": "GraphQL",
+      "title": "GraphQL"
+    },
+    {
+      "src": "./50px/rest-api.png",
+      "alt": "REST API",
+      "title": "REST API"
+    },
+    { "src": "./50px/docker-2.png", "alt": "Docker", "title": "Docker" }
   ],
   "works": [
     {
