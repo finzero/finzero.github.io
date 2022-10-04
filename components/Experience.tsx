@@ -65,6 +65,6 @@ export interface IExperience {
   workDate: string;
   position: string;
   employer: string;
-  responsibilities: any[];
+  responsibilities?: any[];
   projects: any[];
 }
