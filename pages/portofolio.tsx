@@ -6,6 +6,7 @@ import pict from '../public/img/father-n-son.jpg';
 import { Items } from '../components/Items';
 import mySkills from '../public/json/skills.json';
 import ThemeToggle from '../components/ThemeToggle';
+import Link from 'next/link';
 
 const Portofolio: NextPage = () => {
   const [theme, setTheme] = useState('day');
@@ -59,6 +60,9 @@ const Portofolio: NextPage = () => {
   return (
     <div className={`${styles.portofolioContainer} ${theme}`}>
       <ThemeToggle onChange={onThemeChange} />
+      <Link href="resume">
+        <button className={'float-btn'}>Resume</button>
+      </Link>
       <div className={styles.aboutMe}>
         <div className={styles.name}>
           <div>

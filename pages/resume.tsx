@@ -8,7 +8,7 @@ import linkedinIcon from '../public/img/linkedin-icon.png';
 import webIcon from '../public/img/web-icon.png';
 import emailIcon from '../public/img/email-icon.png';
 import homeIcon from '../public/img/home-icon.png';
-
+import Link from 'next/link';
 import profilePictResume from '../public/img/profile-pict-2.jpg';
 import { ExperienceList } from '../components/ExperienceList';
 
@@ -39,6 +39,9 @@ const Resume: NextPage = () => {
 
   return (
     <div className={styles.resumeContainer}>
+      <Link href="portofolio">
+        <button className={'float-btn'}>Portofolio</button>
+      </Link>
       <div className={`${styles.resumeLeft} ${toggleLeft ? styles.show : ''}`}>
         <div
           className={`${styles.toggleLeftSide} text-center`}

@@ -11,7 +11,7 @@ const Skill = () => {
     <Layout>
       <div className="d-flex justify-content-between contentContainer">
         <div className="d-flex flex-column w-50">
-          <div className="title">
+          <div className={style.title}>
             My Skill <br /> & Experience
           </div>
           <p>

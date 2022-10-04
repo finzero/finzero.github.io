@@ -34,12 +34,11 @@ body .day {
 
 .container {
   min-height: 100vh;
-  background: rgb(0, 0, 0, .85);
+  /* background: rgb(0, 0, 0, .85);
   color: #fff;
-  min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .contentContainer{
@@ -77,8 +76,13 @@ p{
 
 .title {
   font-weight: bold;
-  color: #72E2AE;
-  font-size: 60px;
+  min-width: 200px;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 3px 50px;
+  -webkit-border-top-right-radius: 30px;
+  -moz-border-radius-topright: 30px;
+  border-top-right-radius: 30px;
 }
 
 .night .title{
