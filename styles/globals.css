@@ -27,7 +27,7 @@ body .day {
   background-size: cover;
 }
 
-.night ~ .float-btn{
+.night~.float-btn {
   background: #FFFFFF;
   color: #000000;
 }
@@ -41,9 +41,15 @@ body .day {
   align-items: center; */
 }
 
-.contentContainer{
+.contentContainer {
   padding-left: 180px;
   width: 100%;
+}
+
+.porto-title {
+  font-weight: bold;
+  color: #72E2AE;
+  font-size: 60px;
 }
 
 a {
@@ -54,6 +60,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -66,12 +73,13 @@ a {
   }
 }
 
-.mt-4{
+.mt-4 {
   margin-top: 1.5rem;
 }
 
-p{
+p {
   font-size: 16px;
+  line-height: 20px;
 }
 
 .title {
@@ -85,7 +93,7 @@ p{
   border-top-right-radius: 30px;
 }
 
-.night .title{
+.night .title {
   border-top: 1px solid #fff;
 }
 
@@ -110,41 +118,41 @@ p{
   text-decoration: none;
 }
 
-.float-btn.Resume{
+.float-btn.Resume {
   bottom: 10px;
   top: auto;
 }
 
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
-.fs-16{
+.fs-16 {
   font-size: 16px;
 }
 
-.fs-14{
+.fs-14 {
   font-size: 14px;
 }
 
-.fs-25{
+.fs-25 {
   font-size: 25px;
 }
 
-.mt-1{
+.mt-1 {
   margin-top: 0.25em;
 }
 
-.mt-2{
+.mt-2 {
   margin-top: 1em;
 }
 
-.mt-3{
+.mt-3 {
   margin-top: 1.5em;
 }
 
-.mt-4{
+.mt-4 {
   margin-top: 2em;
 }
 
@@ -152,23 +160,24 @@ p{
   width: 24px;
 }
 
-.subtitle{
+.subtitle {
   font-size: 16px;
   color: white;
   font-weight: 600;
 }
 
-.padding-container{
+.padding-container {
   padding: 10px;
   font-size: 14px;
 }
 
 /* override typejs cursor css */
-.typed-cursor, .typed-cursor--blink{
+.typed-cursor,
+.typed-cursor--blink {
   color: #72E2AE;
 }
 
-.hexagon{
+.hexagon {
   width: 100px;
   height: 100px;
   background: white;
@@ -182,13 +191,13 @@ p{
   transition: all 0.2s;
 }
 
-.hexagon:hover{
+.hexagon:hover {
   background: rgb(236, 236, 236);
   transform: scale(1.3);
   z-index: 1;
 }
 
-.hexagonContainer{
+.hexagonContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -196,30 +205,34 @@ p{
   gap: 5px;
 }
 
-.mtpx-20{
+.mtpx-20 {
   margin-top: -20px;
 }
 
-.d-flex{
+.d-flex {
   display: flex;
 }
 
-.flex-column{
+.flex-column {
   flex-direction: column;
 }
 
-.justify-content-between{
+.justify-content-between {
   justify-content: space-between;
 }
 
-.justify-content-center{
+.justify-content-center {
   justify-content: center;
 }
 
-.align-items-center{
+.align-items-center {
   align-items: center;
 }
 
-.w-50{
+.w-50 {
   width: 50%;
+}
+
+code{
+  color: #72E2AE;
 }
