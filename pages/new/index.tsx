@@ -34,7 +34,8 @@ const Index = () => {
           <Image src={require('@/public/img/profile-pict-2.jpg')} />
         </div>
         <div className={style.introduction}>
-          Hi, I'm <span className={style.animatedText} ref={animatedEl}></span>
+          Hi, I&apos;m{' '}
+          <span className={style.animatedText} ref={animatedEl}></span>
         </div>
         <div className={style.aboutMev2}>
           Experienced Frontend Developer in building desktop & mobile web
@@ -42,7 +43,12 @@ const Index = () => {
         </div>
         <div className={style.mySkills}>
           {socialMedia.map((skill: any, skillIdx: number) => (
-            <a href={skill.link} key={skillIdx} target="_blank">
+            <a
+              href={skill.link}
+              key={skillIdx}
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image src={skill.src} alt={skill.title} width={40} height={40} />
             </a>
           ))}

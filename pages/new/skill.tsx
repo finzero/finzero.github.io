@@ -21,8 +21,9 @@ const Skill = () => {
           </p>
           <p>
             My first Frontend project was to build a static Company Profile
-            website, at that time there's no Frontend framework/library like
-            Vue, Angular or React so i build it with just HTML, CSS & JQuery.
+            website, at that time there&apos;s no Frontend framework/library
+            like Vue, Angular or React so i build it with just HTML, CSS &
+            JQuery.
           </p>
           <p>
             I create a lot of web applications, building modular and component
