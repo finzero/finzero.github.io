@@ -7,7 +7,7 @@ const About = () => {
       <div className="d-flex justify-content-between contentContainer">
         <div>
           <div className="porto-title">About Me</div>
-          <p>I'm Fazrin, an Enthusiast Frontend Developer and a father.</p>
+          <p>I&apos;m Fazrin, an Enthusiast Frontend Developer and a father.</p>
           <p>
             I love browsing web since i was in highschool, i interested how they
             make blinking color, moving text and other animation. Thats how i
@@ -28,9 +28,9 @@ const About = () => {
             thus i learn AngularJS. Technology keep updating, many frontend
             framework and libraries appear such as <code>React</code> from
             facebook, <code>Angular (2+)</code> an entirely different angular
-            framework than it's predecesor, then <code>VueJs</code> a framework
-            made by community which is combined <code>AngularJS</code> ,{' '}
-            <code>ReactJS</code> and it's own original concepts.
+            framework than it&apos;s predecesor, then <code>VueJs</code> a
+            framework made by community which is combined <code>AngularJS</code>{' '}
+            , <code>ReactJS</code> and it&apos;s own original concepts.
           </p>
           <p>
             I love to code <code>Javascript</code> coz we can make something
