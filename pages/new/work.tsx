@@ -4,9 +4,9 @@ import Masonry from 'react-masonry-css';
 import Image from 'next/image';
 
 const breakpointColumnsObj = {
-  default: 3,
-  700: 2,
-  500: 1,
+  default: 4,
+  768: 3,
+  425: 1,
 };
 
 var items: any[] = [
@@ -32,7 +32,7 @@ items = items.map(function (item) {
       {item.img ? (
         <Image
           src={require(`@/public/img/${item.img}`)}
-          objectFit="fill"
+          objectFit="cover"
         ></Image>
       ) : null}
     </div>
