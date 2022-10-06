@@ -63,6 +63,11 @@ const Portofolio: NextPage = () => {
       <Link href="resume">
         <button className={'float-btn'}>Resume</button>
       </Link>
+      <Link href="new">
+        <button className="float-btn new-resume-btn">
+          Checkout my new web (under construction)
+        </button>
+      </Link>
       <div className={styles.aboutMe}>
         <div className={styles.name}>
           <div>
