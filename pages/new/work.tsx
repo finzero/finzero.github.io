@@ -1,57 +1,58 @@
 import React from 'react';
 import Layout from './layout';
+import Masonry from 'react-masonry-css';
+import Image from 'next/image';
 
-const items = [
+const breakpointColumnsObj = {
+  default: 3,
+  700: 2,
+  500: 1,
+};
+
+var items: any[] = [
   {
-    src: 'https://ychef.files.bbci.co.uk/976x549/p07ryyyj.jpg',
-    width: 300,
-    height: 200,
-    caption: 'Gray Cat',
-    customOverlay: (
-      <div className="custom-overlay__caption">
-        <div>Gray Cat</div>
-      </div>
-    ),
+    id: 1,
+    img: 'whatiwear.jpeg',
   },
-  {
-    src: 'https://icatcare.org/app/uploads/2018/06/Layer-1704-1200x630.jpg',
-    width: 300,
-    height: 200,
-    caption: 'Watching You',
-    customOverlay: (
-      <div className="custom-overlay__caption">
-        <div>Gray Cat</div>
-      </div>
-    ),
-  },
-  {
-    src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIi_a9WP926ruhJ1h6znk6nYQndHRnQ995Ig&usqp=CAU',
-    width: 220,
-    height: 250,
-    caption: 'Kitten',
-    customOverlay: (
-      <div className="custom-overlay__caption">
-        <div>Gray Cat</div>
-      </div>
-    ),
-  },
-  {
-    src: 'https://i.insider.com/61d1c0e2aa741500193b2d18?width=700',
-    width: 250,
-    height: 200,
-    caption: 'Kitten',
-    customOverlay: (
-      <div className="custom-overlay__caption">
-        <div>Gray Cat</div>
-      </div>
-    ),
-  },
+  { id: 2, img: 'oktagon.jpeg' },
+  { id: 3, img: 'new-me-3.png' },
+  { id: 5, img: 'telmed-cms-1.png' },
+  { id: 4, img: 'telmed-1.png' },
+  { id: 6, img: 'mobile-entry-corp.png' },
+  { id: 7, img: 'bcafme-1.png' },
+  { id: 8, img: 'telmed-dok-1.png' },
+  { id: 9, img: 'telmed-pro-4.png' },
+  { id: 10, img: 'my-porto-2.png' },
 ];
+
+// Convert array to JSX items
+items = items.map(function (item) {
+  return (
+    <div className="cardMansory" key={item.id}>
+      {item.img ? (
+        <Image
+          src={require(`@/public/img/${item.img}`)}
+          objectFit="fill"
+        ></Image>
+      ) : null}
+    </div>
+  );
+});
 
 const Work = () => {
   return (
     <Layout>
-      <div className="containerContent">content goes here</div>
+      <div className="containerContent">
+        <div className="gridContainer">
+          <Masonry
+            breakpointCols={breakpointColumnsObj}
+            className="my-masonry-grid"
+            columnClassName="my-masonry-grid_column"
+          >
+            {items}
+          </Masonry>
+        </div>
+      </div>
     </Layout>
   );
 };

@@ -239,3 +239,58 @@ p {
 code{
   color: #72E2AE;
 }
+
+/* temp put here */
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  /* margin-left: -30px; gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  /* padding-left: 10px; gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  /* margin-bottom: 10px; */
+}
+
+.cardMansory{
+  min-width: 33%;
+  /* min-height: 33vh; */
+  /* border: 1px solid #000000; */
+  /* border-radius: 8px; */
+  max-height: 50vh;
+  overflow: hidden;
+}
+
+.cardMansory{
+  opacity: 0.7;
+  border: 1px solid #fff;
+}
+
+.cardMansory:hover{
+  opacity: 1;
+}
+
+.containerContent{
+  padding-left: 150px;
+  min-height: 100vh;
+}
+
+.gridContainer{
+  /* width: 90%; */
+}
+
+.gridContainer img{
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.gridContainer img:hover{
+  transform: scale(1.1);
+}
