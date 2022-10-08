@@ -255,22 +255,18 @@ code{
 
 /* Style your items */
 .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
-  background: grey;
+  /* background: grey; */
   /* margin-bottom: 10px; */
-}
-
-.cardMansory{
-  /* min-width: 33%; */
-  /* min-height: 33vh; */
-  /* border: 1px solid #000000; */
-  /* border-radius: 8px; */
-  max-height: 50vh;
-  overflow: hidden;
 }
 
 .cardMansory{
   opacity: 0.7;
   border: 1px solid #fff;
+  background: white;
+  /* margin-bottom: 10px; */
+  text-align: center;
+  max-height: 50vh;
+  overflow: hidden;
 }
 
 .cardMansory:hover{
