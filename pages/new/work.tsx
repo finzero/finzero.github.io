@@ -9,11 +9,8 @@ const breakpointColumnsObj = {
   425: 1,
 };
 
-var items: any[] = [
-  {
-    id: 1,
-    img: 'whatiwear.jpeg',
-  },
+let items: any[] = [
+  { id: 1, img: 'whatiwear.jpeg' },
   { id: 2, img: 'oktagon.jpeg' },
   { id: 3, img: 'new-me-3.png' },
   { id: 5, img: 'telmed-cms-1.png' },
@@ -42,7 +39,7 @@ items = items.map(function (item) {
 const Work = () => {
   return (
     <Layout>
-      <div className="containerContent">
+      <div className="contentContainer" style={{ marginTop: '60px' }}>
         <div className="gridContainer">
           <Masonry
             breakpointCols={breakpointColumnsObj}

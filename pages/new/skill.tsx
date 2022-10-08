@@ -9,8 +9,8 @@ const Skill = () => {
 
   return (
     <Layout>
-      <div className="d-flex justify-content-between contentContainer">
-        <div className="d-flex flex-column w-50">
+      <div className={style.skillContainer}>
+        <div className={style.leftContent}>
           <div className={style.title}>
             My Skill <br /> & Experience
           </div>
@@ -32,31 +32,31 @@ const Skill = () => {
             desktop device, implementing lazy load for faster initial load.
           </p>
         </div>
-        <div className="d-flex justify-content-center w-50">
-          <div>
+        <div className={style.rightContent}>
+          <div className="skillContainer">
             <div className={style.skillsContainer}>
-              {skills.slice(0, 4).map((s: any, sIdx: number) => (
+              {skills.slice(0, 5).map((s: any, sIdx: number) => (
                 <div className={style.skillFrame} key={sIdx}>
                   <Image src={`../${s.src}`} width={60} height={60} />
                 </div>
               ))}
             </div>
-            <div className={`${style.skillsContainer} mtpx-20`}>
+            <div className={`${style.skillsContainer}`}>
               {skills.slice(4, 9).map((s: any, sIdx: number) => (
                 <div className={style.skillFrame} key={sIdx}>
                   <Image src={`../${s.src}`} width={60} height={60} />
                 </div>
               ))}
             </div>
-            <div className={`${style.skillsContainer} mtpx-20`}>
-              {skills.slice(9, 13).map((s: any, sIdx: number) => (
+            <div className={`${style.skillsContainer}`}>
+              {skills.slice(10, 15).map((s: any, sIdx: number) => (
                 <div className={style.skillFrame} key={sIdx}>
                   <Image src={`../${s.src}`} width={60} height={60} />
                 </div>
               ))}
             </div>
-            <div className={`${style.skillsContainer} mtpx-20`}>
-              {skills.slice(13, 18).map((s: any, sIdx: number) => (
+            <div className={`${style.skillsContainer}`}>
+              {skills.slice(15, 18).map((s: any, sIdx: number) => (
                 <div className={style.skillFrame} key={sIdx}>
                   <Image src={`../${s.src}`} width={60} height={60} />
                 </div>

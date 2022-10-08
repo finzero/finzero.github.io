@@ -4,7 +4,7 @@ import Layout from './layout';
 const About = () => {
   return (
     <Layout>
-      <div className="d-flex justify-content-between contentContainer">
+      <div className="contentContainer">
         <div>
           <div className="porto-title">About Me</div>
           <p>I&apos;m Fazrin, an Enthusiast Frontend Developer and a father.</p>

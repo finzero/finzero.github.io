@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import style from '../../styles/Resume.module.css';
+import React, { useState } from 'react';
+import style from '../../styles/Sidebar.module.css';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
@@ -8,13 +8,7 @@ const BASE_PATH = '/new';
 const NavSidebar = () => {
   const router = useRouter();
 
-  const [active, setActive] = useState('/new');
-
-  useEffect(() => {
-    //set style on menu based on active route
-    console.log(active, router.pathname);
-    setActive(router.pathname);
-  }, [router]);
+  const [active] = useState(router.pathname);
 
   return (
     <div className={style.sidebar}>

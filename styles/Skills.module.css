@@ -32,3 +32,34 @@
   color: #72E2AE;
   font-size: 60px;
 }
+
+
+.skillContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 180px;
+}
+
+.leftContent, .rightContent{
+  width: 50%;
+}
+
+/* mobile responsive */
+@media all and (max-width: 425px) {
+  .skillContainer{
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 60px;
+  }
+
+  .leftContent, .rightContent{
+    width: 100%;
+  }
+
+  .title{
+    font-size: 30px;
+  }
+
+}
