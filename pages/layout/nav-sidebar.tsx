@@ -31,6 +31,11 @@ const NavSidebar = () => {
             Work
           </div>
         </Link>
+        <div>
+          <a href="/resume">
+            <div>Resume</div>
+          </a>
+        </div>
       </div>
     </div>
   );
