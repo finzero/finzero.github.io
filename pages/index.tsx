@@ -8,7 +8,7 @@ const Index: NextPage = () => {
     if (router.asPath === '/') {
       router.push('/portofolio');
     }
-  }, []);
+  }, [router.pathname]);
 
   return <div></div>;
 };

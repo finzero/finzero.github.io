@@ -103,7 +103,7 @@
   color: #000000;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
 
   .sidebar{
     height: 60px;
@@ -114,6 +114,8 @@
   .sidebarMenu{
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    align-items: center;
   }
 
   .toggleLeftSide{

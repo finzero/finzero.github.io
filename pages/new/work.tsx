@@ -30,6 +30,7 @@ items = items.map(function (item) {
         <Image
           src={require(`@/public/img/${item.img}`)}
           objectFit="cover"
+          alt="work"
         ></Image>
       ) : null}
     </div>

@@ -47,7 +47,7 @@
 }
 
 /* mobile responsive */
-@media all and (max-width: 425px) {
+@media all and (max-width: 768px) {
   .skillContainer{
     flex-direction: column;
     padding: 15px;

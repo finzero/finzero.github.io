@@ -37,28 +37,48 @@ const Skill = () => {
             <div className={style.skillsContainer}>
               {skills.slice(0, 5).map((s: any, sIdx: number) => (
                 <div className={style.skillFrame} key={sIdx}>
-                  <Image src={`../${s.src}`} width={60} height={60} />
+                  <Image
+                    src={`../${s.src}`}
+                    width={60}
+                    height={60}
+                    alt={s.title}
+                  />
                 </div>
               ))}
             </div>
             <div className={`${style.skillsContainer}`}>
               {skills.slice(4, 9).map((s: any, sIdx: number) => (
                 <div className={style.skillFrame} key={sIdx}>
-                  <Image src={`../${s.src}`} width={60} height={60} />
+                  <Image
+                    src={`../${s.src}`}
+                    width={60}
+                    height={60}
+                    alt={s.title}
+                  />
                 </div>
               ))}
             </div>
             <div className={`${style.skillsContainer}`}>
               {skills.slice(10, 15).map((s: any, sIdx: number) => (
                 <div className={style.skillFrame} key={sIdx}>
-                  <Image src={`../${s.src}`} width={60} height={60} />
+                  <Image
+                    src={`../${s.src}`}
+                    width={60}
+                    height={60}
+                    alt={s.title}
+                  />
                 </div>
               ))}
             </div>
             <div className={`${style.skillsContainer}`}>
               {skills.slice(15, 18).map((s: any, sIdx: number) => (
                 <div className={style.skillFrame} key={sIdx}>
-                  <Image src={`../${s.src}`} width={60} height={60} />
+                  <Image
+                    src={`../${s.src}`}
+                    width={60}
+                    height={60}
+                    alt={s.title}
+                  />
                 </div>
               ))}
             </div>

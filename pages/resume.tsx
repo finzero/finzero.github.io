@@ -15,7 +15,7 @@ import { ExperienceList } from '../components/ExperienceList';
 const Contact = (props: { data: string; icon: StaticImageData }) => (
   <div className={styles.contactItem}>
     <span>{props.data}</span>
-    <Image width={24} height={24} src={props.icon} />
+    <Image width={24} height={24} src={props.icon} alt="Contact" />
   </div>
 );
 
@@ -48,7 +48,7 @@ const Resume: NextPage = () => {
           onClick={toggleLeftSide}
         ></div>
         <div className={styles.resumeProfilePict}>
-          <Image src={profilePictResume}></Image>
+          <Image src={profilePictResume} alt="Fazrin Mutaqin"></Image>
         </div>
         <div className="text-center mt-1">
           <div className="fs-25">

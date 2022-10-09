@@ -291,12 +291,16 @@ code{
   transform: scale(1.1);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .contentContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px;
+  }
+
+  .porto-title{
+    font-size: 30px;
   }
 }

@@ -31,7 +31,10 @@ const Index = () => {
     <Layout>
       <div className={style.contentContainer}>
         <div className={style.portoProfilePict}>
-          <Image src={require('@/public/img/profile-pict-2.jpg')} />
+          <Image
+            src={require('@/public/img/profile-pict-2.jpg')}
+            alt="Fazrin Mutaqin"
+          />
         </div>
         <div className={style.introduction}>
           Hi, I&apos;m{' '}

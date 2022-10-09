@@ -23,7 +23,7 @@ const NavSidebar = () => {
         </Link>
         <Link href={'/new/skill'}>
           <div className={active === BASE_PATH + '/skill' ? style.active : ''}>
-            My Skills
+            Skills
           </div>
         </Link>
         <Link href={'/new/work'}>
@@ -31,11 +31,9 @@ const NavSidebar = () => {
             Work
           </div>
         </Link>
-        <div>
-          <a href="/resume">
-            <div>Resume</div>
-          </a>
-        </div>
+        <Link href={'/resume'}>
+          <div>Resume</div>
+        </Link>
       </div>
     </div>
   );
