@@ -155,3 +155,9 @@
     padding-left: 60px;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .sidebar > div{
+    font-size: 13px;
+  }
+}

@@ -165,3 +165,9 @@
     background-position: 100% 50%;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .animatedText, .introduction{
+    font-size: 30px;
+  }
+}
