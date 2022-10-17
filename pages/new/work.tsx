@@ -13,12 +13,12 @@ let items: any[] = [
   { id: 1, img: 'whatiwear.jpeg' },
   { id: 2, img: 'oktagon.jpeg' },
   { id: 3, img: 'new-me-3.png' },
-  { id: 5, img: 'telmed-cms-1.png' },
-  { id: 4, img: 'telmed-1.png' },
+  // { id: 5, img: 'telmed-cms-1.png' },
+  // { id: 4, img: 'telmed-1.png' },
   { id: 6, img: 'mobile-entry-corp.png' },
   { id: 7, img: 'bcafme-1.png' },
-  { id: 8, img: 'telmed-dok-1.png' },
-  { id: 9, img: 'telmed-pro-4.png' },
+  // { id: 8, img: 'telmed-dok-1.png' },
+  // { id: 9, img: 'telmed-pro-4.png' },
   { id: 10, img: 'my-porto-2.png' },
 ];
 
