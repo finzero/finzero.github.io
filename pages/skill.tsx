@@ -1,5 +1,5 @@
 import React from 'react';
-import mySkills from '../../public/json/skills.json';
+import mySkills from '../public/json/skills.json';
 import Image from 'next/image';
 import style from '@/styles/Skills.module.css';
 import Layout from './layout';

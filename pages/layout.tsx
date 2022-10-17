@@ -1,5 +1,5 @@
 import React from 'react';
-import NavSidebar from '../layout/nav-sidebar';
+import NavSidebar from './layout/nav-sidebar';
 
 const containerStyle = {
   display: 'flex',

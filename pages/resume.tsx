@@ -39,7 +39,7 @@ const Resume: NextPage = () => {
 
   return (
     <div className={styles.resumeContainer}>
-      <Link href="portofolio">
+      <Link href="/">
         <button className={'float-btn'}>Portofolio</button>
       </Link>
       <div className={`${styles.resumeLeft} ${toggleLeft ? styles.show : ''}`}>
