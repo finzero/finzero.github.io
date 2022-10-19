@@ -23,7 +23,7 @@ let items: any[] = [
 ];
 
 // Convert array to JSX items
-items = items.map(function (item) {
+items = items.map((item, idx) => {
   return (
     <div className="cardMansory" key={item.id}>
       {item.img ? (
@@ -41,6 +41,7 @@ const Work = () => {
   return (
     <Layout>
       <div className="contentContainer" style={{ marginTop: '60px' }}>
+        <div className="porto-title">Some of my Work</div>
         <div className="gridContainer">
           <Masonry
             breakpointCols={breakpointColumnsObj}

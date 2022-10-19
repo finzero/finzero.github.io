@@ -166,8 +166,17 @@
   }
 }
 
+@media (orientation: landscape) {
+  .portoProfilePict{
+    margin-top: 70px;
+  }
+  .introduction{
+    margin-top: 0.5em;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .animatedText, .introduction{
-    font-size: 30px;
+    font-size: 25px;
   }
 }
