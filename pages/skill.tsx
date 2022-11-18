@@ -18,6 +18,7 @@ const Skill = () => {
   };
 
   useLayoutEffect(() => {
+    setWidth(window.innerWidth);
     if (rightContent && rightContent.current) {
       window.addEventListener('resize', updateSize);
     }
