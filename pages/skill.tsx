@@ -41,7 +41,7 @@ const Skill = () => {
     return () => {
       newCloud.destroy();
     };
-  }, [width]);
+  }, [texts, width]);
 
   return (
     <Layout>
