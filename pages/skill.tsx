@@ -1,14 +1,53 @@
-import React from 'react';
+import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import mySkills from '../public/json/skills.json';
 import Image from 'next/image';
 import style from '@/styles/Skills.module.css';
 import Layout from './layout';
+import Head from 'next/head';
+
+const TagCloud = require('TagCloud');
 
 const Skill = () => {
+  const [width, setWidth] = useState(0);
   const { skills } = mySkills;
+  const texts = skills.map((s) => s.title);
+  const rightContent = useRef<HTMLDivElement>(null);
+
+  const updateSize = () => {
+    setWidth(window.innerWidth);
+  };
+
+  useLayoutEffect(() => {
+    if (rightContent && rightContent.current) {
+      window.addEventListener('resize', updateSize);
+    }
+
+    return () => {
+      window.removeEventListener('resize', updateSize);
+    };
+  }, []);
+
+  useEffect(() => {
+    let radius = 250;
+    if (width <= 425) {
+      radius = 150;
+    }
+
+    let newCloud = TagCloud('.tagCloud', texts, {
+      radius: radius,
+      initSpeed: 'slow',
+    });
+
+    return () => {
+      newCloud.destroy();
+    };
+  }, [width]);
 
   return (
     <Layout>
+      <Head>
+        <script type="text/javascript" src="/js/TagCloud.min.js"></script>
+      </Head>
       <div className={style.skillContainer}>
         <div className={style.leftContent}>
           <div className={style.title}>
@@ -32,7 +71,10 @@ const Skill = () => {
             desktop device, implementing lazy load for faster initial load.
           </p>
         </div>
-        <div className={style.rightContent}>
+        <div ref={rightContent} className={style.rightContent}>
+          <div className="tagCloud"></div>
+        </div>
+        {/* <div className={style.rightContent}>
           <div className="skillContainer">
             <div className={style.skillsContainer}>
               {skills.slice(0, 5).map((s: any, sIdx: number) => (
@@ -83,7 +125,7 @@ const Skill = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

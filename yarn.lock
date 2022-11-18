@@ -273,6 +273,11 @@
     "@typescript-eslint/types" "5.38.0"
     eslint-visitor-keys "^3.3.0"
 
+TagCloud@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/TagCloud/-/TagCloud-2.2.0.tgz#fb96d30bfb8628fadeb298a3ca87ab447468fcf1"
+  integrity sha512-O2iizjUAWi58/EVn7ut5r16EelUtf42P9tta/q4tpE6r+Fs+13+UxdSNbxj0kElq3FOTWVlm2FFWJuLE9xY5mA==
+
 acorn-jsx@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.3.2.tgz#7ed5bb55908b3b2f1bc55c6af1653bada7f07937"

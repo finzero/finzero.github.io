@@ -1,6 +1,7 @@
 {
   "skills": [
     { "src": "./50px/angular.png", "alt": "Angular", "title": "Angular" },
+    { "src": "./50px/angular.png", "alt": "AngularJS", "title": "AngularJS" },
     {
       "src": "./50px/javascript.png",
       "alt": "Javascript",
@@ -39,6 +40,21 @@
       "src": "./50px/graphql.png",
       "alt": "GraphQL",
       "title": "GraphQL"
+    },
+    {
+      "src": "./50px/graphql.png",
+      "alt": "Photoshop",
+      "title": "Photoshop"
+    },
+    {
+      "src": "./50px/graphql.png",
+      "alt": "Gimp",
+      "title": "Gimp"
+    },
+    {
+      "src": "./50px/graphql.png",
+      "alt": "Figma",
+      "title": "Figma"
     },
     {
       "src": "./50px/rest-api.png",
