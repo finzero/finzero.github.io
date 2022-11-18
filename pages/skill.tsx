@@ -3,7 +3,7 @@ import mySkills from '../public/json/skills.json';
 import Image from 'next/image';
 import style from '@/styles/Skills.module.css';
 import Layout from './layout';
-import Head from 'next/head';
+import Script from 'next/script';
 
 const TagCloud = require('TagCloud');
 
@@ -46,9 +46,7 @@ const Skill = () => {
 
   return (
     <Layout>
-      <Head>
-        <script type="text/javascript" src="/js/TagCloud.min.js"></script>
-      </Head>
+      <Script src="/js/TagCloud.min.js"></Script>
       <div className={style.skillContainer}>
         <div className={style.leftContent}>
           <div className={style.title}>
