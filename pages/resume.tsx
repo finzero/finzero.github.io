@@ -56,7 +56,7 @@ const RightContentTitle = styled.div`
   color: #002d7c;
   font-weight: 800;
   font-size: 18px;
-  padding: 5px 10px px;
+  padding: 10px 5px;
   border-bottom: 1px solid #000;
   margin-bottom: 10px;
 `;

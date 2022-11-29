@@ -15,19 +15,23 @@ const Sidebar = styled.div`
   position: fixed;
   top: 0;
   left: 0;
-  width: 150px;
-  background: rgb(0 0 0 / 20%);
-  height: 100vh;
+  margin: 10px;
+  width: calc(150px - 20px);
+  background: rgb(255 255 255 / 5%);
+  height: calc(100vh - 20px);
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 2;
+  border: 1px solid rgb(102 102 102 / 58%);
 
   @media screen and (max-width: 768px) {
     height: 60px;
-    width: 100vw;
-    background: #000;
+    width: calc(100vw - 20px);
+    margin: 10px;
+    border-bottom: 1px solid #666666;
   }
 `;
 
@@ -38,6 +42,14 @@ const SidebarMenu = styled.div`
     justify-content: space-between;
     width: 90%;
     align-items: center;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 14px;
+  }
+
+  @media (max-width: 320px) {
+    font-size: 12px;
   }
 `;
 

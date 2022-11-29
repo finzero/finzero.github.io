@@ -5,11 +5,9 @@ const Title = styled.div`
   color: #72e2ae;
   font-size: 60px;
 
-  @media screen and (max-width: 768px) {
+  @media (max-width: 768px) {
     text-align: center;
-    .porto-title {
-      font-size: 30px;
-    }
+    font-size: 40px;
   }
 `;
 export default Title;
