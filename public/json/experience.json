@@ -194,10 +194,15 @@
     "workDate": "Oct 2010 - Feb 2011",
     "position": "Computer Technician",
     "employer": "Silicon One",
-    "responsibilities": [
-      "Assembing PC according to customer request.",
-      "Serve customers that come to shop."
-    ],
-    "projects": []
+    "projects": [
+      {
+        "title": "",
+        "technologies": "",
+        "responsibilities": [
+          "Assembing PC according to customer request.",
+          "Serve customers that come to shop."
+        ]
+      }
+    ]
   }
 ]

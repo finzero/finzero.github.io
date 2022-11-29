@@ -34,22 +34,11 @@ body .day {
 
 .container {
   min-height: 100vh;
-  /* background: rgb(0, 0, 0, .85);
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .contentContainer {
   padding-left: 180px;
   width: 100%;
-}
-
-.porto-title {
-  font-weight: bold;
-  color: #72E2AE;
-  font-size: 60px;
 }
 
 a {
@@ -98,24 +87,7 @@ p {
 }
 
 .float-btn {
-  z-index: 2;
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  height: 50px;
-  line-height: 50px;
-  padding: 0px 10px;
-  border-radius: 100px;
-  border: 1px solid #000000;
-
-  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-  transform: translatey(0px);
-  animation: float 4s ease-in-out infinite;
-  background: #000000;
-  font-weight: bold;
-  color: #FFFFFF;
-  cursor: pointer;
-  text-decoration: none;
+  
 }
 
 .float-btn.Resume {
@@ -170,8 +142,7 @@ p {
 }
 
 .padding-container {
-  padding: 10px;
-  font-size: 14px;
+  
 }
 
 /* override typejs cursor css */
@@ -253,54 +224,8 @@ code{
   background-clip: padding-box;
 }
 
-/* Style your items */
-.my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
-  /* background: grey; */
-  /* margin-bottom: 10px; */
-}
-
-.cardMansory{
-  opacity: 0.7;
-  border: 1px solid #fff;
-  background: white;
-  /* margin-bottom: 10px; */
-  text-align: center;
-  max-height: 50vh;
-  overflow: hidden;
-}
-
-.cardMansory:hover{
-  opacity: 1;
-}
 
 .containerContent{
   padding-left: 150px;
   min-height: 100vh;
-}
-
-.gridContainer{
-  /* width: 90%; */
-}
-
-.gridContainer img{
-  transition: all .5s;
-  cursor: pointer;
-}
-
-.gridContainer img:hover{
-  transform: scale(1.1);
-}
-
-@media screen and (max-width: 768px) {
-  .contentContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-  }
-
-  .porto-title{
-    font-size: 30px;
-  }
 }

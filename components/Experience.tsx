@@ -1,55 +1,40 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from '../styles/Experience.module.css';
+import styled from 'styled-components';
+import Projects from './Projects';
+
+const ResumeContainer = styled.div``;
+const ExperienceContainer = styled.div`
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+const WorkDate = styled.div`
+  min-width: 200px;
+`;
+
+const WorkTitle = styled.div`
+  font-size: 20px;
+  font-weight: 700;
+`;
 
 export const Experience = (props: { data: IExperience }) => {
-  const { workDate, position, employer, responsibilities, projects } =
-    props.data;
+  const { workDate, position, employer, projects } = props.data;
 
   return (
-    <div className={styles.experienceContainer}>
-      <div className={styles.workDate}>{workDate}</div>
-      <div className={styles.workItem}>
-        <div className={styles.workTitle}>
+    <ExperienceContainer>
+      <WorkDate>{workDate}</WorkDate>
+      <ResumeContainer>
+        <WorkTitle>
           {employer} - {position}
-        </div>
-        <div className={styles.history}>
-          {projects.length ? (
-            <div className={styles.projectLabel}>Projects:</div>
-          ) : null}
-          <div>
-            {!!projects.length &&
-              projects.map((p, i) => (
-                <div key={'project-' + i}>
-                  <div className={styles.projectName}>{p.title}</div>
-                  <div className={styles.projectDesc}>{p.description}</div>
-                  {p.technologies && (
-                    <div>
-                      <strong>Stack:</strong> {p.technologies.join(', ')}.
-                    </div>
-                  )}
-                  <div className="">
-                    <strong>Responsibilities:</strong>
-                  </div>
-                  {p.responsibilities &&
-                    p.responsibilities.map((res: any, resI: number) => (
-                      <li key={resI}>{res}</li>
-                    ))}
-                </div>
-              ))}
-          </div>
-          {responsibilities && (
-            <div>
-              <strong>Responsibilities:</strong>
-            </div>
-          )}
-          {responsibilities &&
-            responsibilities.map((r: any, rIdx: number) => (
-              <li key={'responsibility-' + rIdx}>{r}</li>
-            ))}
-        </div>
-      </div>
-    </div>
+        </WorkTitle>
+        <Projects projects={projects} />
+      </ResumeContainer>
+    </ExperienceContainer>
   );
 };
 
