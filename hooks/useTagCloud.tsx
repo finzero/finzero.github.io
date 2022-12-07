@@ -7,20 +7,18 @@ const useTagCloud = (
 ) => {
   const [width, setWidth] = useState(0);
 
-  const WidthListener = () => {
-    window.addEventListener('resize', () => {
-      setWidth(window.innerWidth);
-    });
-  };
-
   useLayoutEffect(() => {
     setWidth(window.innerWidth);
     if (widthElement) {
-      WidthListener();
+      window.addEventListener('resize', () => {
+        setWidth(window.innerWidth);
+      });
     }
 
     return () => {
-      WidthListener();
+      window.removeEventListener('resize', () => {
+        setWidth(window.innerWidth);
+      });
     };
   }, []);
 
