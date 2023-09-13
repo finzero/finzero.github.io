@@ -1,7 +1,7 @@
 import React from 'react';
 import { Experience, IExperience } from './Experience';
 
-export const ExperienceList = (props: { exps: IExperience[] }) => {
+const ExperienceList = (props: { exps: IExperience[] }) => {
   return !!props.exps.length ? (
     <div>
       {props.exps.map((exp) => (
@@ -12,3 +12,5 @@ export const ExperienceList = (props: { exps: IExperience[] }) => {
     <div>No Data</div>
   );
 };
+
+export default ExperienceList;
